@@ -99,9 +99,9 @@ class CocktailTableSeeder extends Seeder
 
     DB::table('cocktail')->insert([
     'id' =>  13,
-    'naam' => 'Daiquiri',
+    'naam' => 'Cubby Blue',
     'sterkte' => 18,
-    'image_location'=> '/img/cocktails/daiquiri.png',
+    'image_location'=> '/img/cocktails/cubbyblue.png',
   ]);
 
     DB::table('cocktail')->insert([
@@ -221,297 +221,283 @@ class CocktailTableSeeder extends Seeder
     'naam' => 'Harvey Wallbanger',
     'sterkte' => 14,
     'image_location'=> '/img/cocktails/harvey.png',
-  ]);
-
-    DB::table('cocktail')->insert([
-    'id' =>  31,
-    'naam' => 'Harvey Wallbanger',
-    'sterkte' => 14,
-    'image_location'=> '/img/cocktails/harvey.png',
     ]);
 
     DB::table('cocktail')->insert([
-    'id' =>  32,
+    'id' =>  31,
     'naam' => 'Hemmingway Daiquiri',
     'sterkte' => 21,
     'image_location'=> '/img/cocktails/hemmingway.png',
     ]);
 
     DB::table('cocktail')->insert([
-    'id' =>  33,
+    'id' =>  32,
     'naam' => 'Horse Neck',
     'sterkte' => 10,
     'image_location'=> '/img/cocktails/horse.png',
     ]);
 
     DB::table('cocktail')->insert([
-    'id' =>  34,
+    'id' =>  33,
     'naam' => 'Hurricane',
     'sterkte' => 24,
     'image_location'=> '/img/cocktails/hurricane.png',
     ]);
 
     DB::table('cocktail')->insert([
-    'id' =>  35,
+    'id' =>  34,
     'naam' => 'Irish Buck',
     'sterkte' => 8,
     'image_location'=> '/img/cocktails/buck.png',
     ]);
 
     DB::table('cocktail')->insert([
-    'id' =>  36,
+    'id' =>  35,
     'naam' => 'Irish Eyes',
     'sterkte' => 12,
     'image_location'=> '/img/cocktails/eyes.png',
     ]);
 
     DB::table('cocktail')->insert([
-    'id' =>  37,
+    'id' =>  36,
     'naam' => 'Irish Flag',
     'sterkte' => 23,
     'image_location'=> '/img/cocktails/flag.png',
     ]);
 
     DB::table('cocktail')->insert([
-    'id' =>  38,
+    'id' =>  37,
     'naam' => 'Island Breeze',
     'sterkte' => 8,
     'image_location'=> '/img/cocktails/breeze.png',
     ]);
 
     DB::table('cocktail')->insert([
-    'id' =>  39,
+    'id' =>  38,
     'naam' => 'Jack Rose',
     'sterkte' => 25,
     'image_location'=> '/img/cocktails/jack.png',
     ]);
 
     DB::table('cocktail')->insert([
-    'id' =>  40,
+    'id' =>  39,
     'naam' => 'John Collins',
     'sterkte' => 10,
     'image_location'=> '/img/cocktails/collins.png',
     ]);
 
     DB::table('cocktail')->insert([
-    'id' =>  41,
+    'id' =>  40,
     'naam' => 'Kamikaze',
     'sterkte' => 25,
     'image_location'=> '/img/cocktails/kamikaze.png',
     ]);
 
     DB::table('cocktail')->insert([
-    'id' =>  42,
+    'id' =>  41,
     'naam' => 'Kamikaze Shot',
     'sterkte' => 25,
     'image_location'=> '/img/cocktails/shot.png',
     ]);
 
     DB::table('cocktail')->insert([
-    'id' =>  43,
+    'id' =>  42,
     'naam' => 'Kentucky Buck',
     'sterkte' => 11,
     'image_location'=> '/img/cocktails/kbuck.png',
     ]);
 
     DB::table('cocktail')->insert([
-    'id' =>  44,
+    'id' =>  43,
     'naam' => 'Kir',
     'sterkte' => 12,
     'image_location'=> '/img/cocktails/kir.png',
     ]);
 
     DB::table('cocktail')->insert([
-    'id' =>  45,
+    'id' =>  44,
     'naam' => 'Lemon Drop Martini',
     'sterkte' => 27,
     'image_location'=> '/img/cocktails/drop.png',
     ]);
 
     DB::table('cocktail')->insert([
-    'id' =>  46,
+    'id' =>  45,
     'naam' => 'Lemonade',
     'sterkte' => 0,
     'image_location'=> '/img/cocktails/lemonade.png',
     ]);
 
     DB::table('cocktail')->insert([
-    'id' =>  47,
+    'id' =>  46,
     'naam' => 'Lime Rickey',
     'sterkte' => 1,
     'image_location'=> '/img/cocktails/lemonade.png',
     ]);
 
     DB::table('cocktail')->insert([
+    'id' =>  47,
+    'naam' => 'Long Island Iced Tea',
+    'sterkte' => 20,
+    'image_location'=> '/img/cocktails/long.png',
+    ]);
+
+    DB::table('cocktail')->insert([
     'id' =>  48,
-    'naam' => 'Long Island Iced Tea',
-    'sterkte' => 20,
-    'image_location'=> '/img/cocktails/long.png',
-    ]);
-
-    DB::table('cocktail')->insert([
-    'id' =>  49,
-    'naam' => 'Long Island Iced Tea',
-    'sterkte' => 20,
-    'image_location'=> '/img/cocktails/long.png',
-    ]);
-
-    DB::table('cocktail')->insert([
-    'id' =>  50,
     'naam' => 'Mai Tai',
     'sterkte' => 26,
     'image_location'=> '/img/cocktails/mai.png',
     ]);
 
     DB::table('cocktail')->insert([
-    'id' =>  51,
+    'id' =>  49,
     'naam' => 'Manhattan',
     'sterkte' => 27,
     'image_location'=> '/img/cocktails/manhattan.png',
     ]);
 
     DB::table('cocktail')->insert([
-    'id' =>  52,
+    'id' =>  50,
     'naam' => 'Margarita',
     'sterkte' => 30,
     'image_location'=> '/img/cocktails/margarita.png',
     ]);
 
     DB::table('cocktail')->insert([
-    'id' =>  53,
+    'id' =>  51,
     'naam' => 'Mimosa',
     'sterkte' => 6,
     'image_location'=> '/img/cocktails/mimosa.png',
     ]);
 
     DB::table('cocktail')->insert([
-    'id' =>  54,
+    'id' =>  52,
     'naam' => 'Negroni',
     'sterkte' => 23,
     'image_location'=> '/img/cocktails/negroni.png',
     ]);
 
     DB::table('cocktail')->insert([
-    'id' =>  55,
+    'id' =>  53,
     'naam' => 'Nutty Irishman',
     'sterkte' => 9,
     'image_location'=> '/img/cocktails/nutty.png',
     ]);
 
     DB::table('cocktail')->insert([
-    'id' =>  56,
+    'id' =>  54,
     'naam' => 'Old Fashioned',
     'sterkte' => 29,
     'image_location'=> '/img/cocktails/old.png',
     ]);
 
     DB::table('cocktail')->insert([
-    'id' =>  57,
+    'id' =>  55,
     'naam' => 'Old Pal',
     'sterkte' => 6,
     'image_location'=> '/img/cocktails/pal.png',
     ]);
 
     DB::table('cocktail')->insert([
-    'id' =>  58,
+    'id' =>  56,
     'naam' => 'Orgasm',
     'sterkte' => 17,
     'image_location'=> '/img/cocktails/orgasm.png',
     ]);
 
     DB::table('cocktail')->insert([
-    'id' =>  59,
+    'id' =>  57,
     'naam' => 'Painkiller',
     'sterkte' => 12,
     'image_location'=> '/img/cocktails/painkiller.png',
     ]);
 
     DB::table('cocktail')->insert([
-    'id' =>  60,
+    'id' =>  58,
     'naam' => 'Piña Colada',
     'sterkte' => 6,
     'image_location'=> '/img/cocktails/pinacolada.png',
     ]);
 
     DB::table('cocktail')->insert([
-    'id' =>  61,
+    'id' =>  59,
     'naam' => 'Rob Roy',
     'sterkte' => 29,
     'image_location'=> '/img/cocktails/rob.png',
     ]);
 
     DB::table('cocktail')->insert([
-    'id' =>  62,
+    'id' =>  60,
     'naam' => 'Russian Spring Punch',
     'sterkte' => 12,
     'image_location'=> '/img/cocktails/punch.png',
     ]);
 
     DB::table('cocktail')->insert([
-    'id' =>  63,
+    'id' =>  61,
     'naam' => 'Sangria',
     'sterkte' => 11,
     'image_location'=> '/img/cocktails/sangria.png',
     ]);
 
     DB::table('cocktail')->insert([
-    'id' =>  64,
+    'id' =>  62,
     'naam' => 'Sex on the Beach',
     'sterkte' => 11,
     'image_location'=> '/img/cocktails/sex.png',
     ]);
 
     DB::table('cocktail')->insert([
-    'id' =>  65,
+    'id' =>  63,
     'naam' => 'Tequila Sunrise',
     'sterkte' => 9,
     'image_location'=> '/img/cocktails/tequila.png',
     ]);
 
     DB::table('cocktail')->insert([
-    'id' =>  66,
+    'id' =>  64,
     'naam' => 'Tipperary',
     'sterkte' => 16,
     'image_location'=> '/img/cocktails/tipperary.png',
     ]);
 
     DB::table('cocktail')->insert([
-    'id' =>  67,
+    'id' =>  65,
     'naam' => 'Vampiro',
     'sterkte' => 10,
     'image_location'=> '/img/cocktails/vampiro.png',
     ]);
 
     DB::table('cocktail')->insert([
-    'id' =>  68,
+    'id' =>  66,
     'naam' => 'Vesper',
     'sterkte' => 30,
     'image_location'=> '/img/cocktails/vesper.png',
     ]);
 
     DB::table('cocktail')->insert([
-    'id' =>  69,
+    'id' =>  67,
     'naam' => 'Ward Eight',
     'sterkte' => 30,
     'image_location'=> '/img/cocktails/eight.png',
     ]);
 
     DB::table('cocktail')->insert([
-    'id' =>  70,
+    'id' =>  68,
     'naam' => 'White Lady',
     'sterkte' => 24,
     'image_location'=> '/img/cocktails/lady.png',
     ]);
 
     DB::table('cocktail')->insert([
-    'id' =>  71,
+    'id' =>  69,
     'naam' => 'Yellow Bird',
     'sterkte' => 30,
     'image_location'=> '/img/cocktails/bird.png',
     ]);
 
     DB::table('cocktail')->insert([
-    'id' =>  72,
+    'id' =>  70,
     'naam' => 'Zombie',
     'sterkte' => 16,
     'image_location'=> '/img/cocktails/zombie.png',

@@ -11,6 +11,7 @@ class BenodighedenTableSeeder extends Seeder
      */
     public function run()
     {
+      //4th of July
       DB::table('benodigheden')->insert([
       'id' =>  1,
       'benodigheid' => 'Barspoon',
@@ -23,220 +24,292 @@ class BenodighedenTableSeeder extends Seeder
       'cocktail_id' => 1,
     ]);
 
+      //ABC Pousse Café
       DB::table('benodigheden')->insert([
       'id' =>  3,
-      'benodigheid' => 'Shaker',
+      'benodigheid' => 'Barspoon',
       'cocktail_id' => 2,
     ]);
 
       DB::table('benodigheden')->insert([
       'id' =>  4,
-      'benodigheid' => 'Strainer',
+      'benodigheid' => 'Shot Glass',
       'cocktail_id' => 2,
     ]);
 
+      //Abbey Cocktail
       DB::table('benodigheden')->insert([
       'id' =>  5,
-      'benodigheid' => 'Cocktail Glass',
-      'cocktail_id' => 2,
+      'benodigheid' => 'Shaker',
+      'cocktail_id' => 3,
     ]);
 
       DB::table('benodigheden')->insert([
       'id' =>  6,
-      'benodigheid' => 'Collins Glass',
+      'benodigheid' => 'Strainer',
       'cocktail_id' => 3,
     ]);
 
       DB::table('benodigheden')->insert([
       'id' =>  7,
-      'benodigheid' => 'Shaker',
-      'cocktail_id' => 4,
+      'benodigheid' => 'Cocktail Glass',
+      'cocktail_id' => 3,
     ]);
 
+
+      //Absinthe Frappé
       DB::table('benodigheden')->insert([
       'id' =>  8,
-      'benodigheid' => 'Strainer',
+      'benodigheid' => 'Shaker',
       'cocktail_id' => 4,
     ]);
 
       DB::table('benodigheden')->insert([
       'id' =>  9,
-      'benodigheid' => 'Cocktail Glass',
+      'benodigheid' => 'Strainer',
       'cocktail_id' => 4,
     ]);
 
       DB::table('benodigheden')->insert([
       'id' =>  10,
-      'benodigheid' => 'Barspoon',
-      'cocktail_id' => 5,
+      'benodigheid' => 'Old Fashioned Glass',
+      'cocktail_id' => 4,
     ]);
 
+      //Bacardi
       DB::table('benodigheden')->insert([
       'id' =>  11,
-      'benodigheid' => 'Collins Glass',
+      'benodigheid' => 'Shaker',
       'cocktail_id' => 5,
     ]);
 
       DB::table('benodigheden')->insert([
       'id' =>  12,
-      'benodigheid' => 'Barspoon',
-      'cocktail_id' => 6,
+      'benodigheid' => 'Strainer',
+      'cocktail_id' => 5,
     ]);
 
       DB::table('benodigheden')->insert([
       'id' =>  13,
-      'benodigheid' => 'Old Fashioned Glass',
+      'benodigheid' => 'Cocktail Glass',
+      'cocktail_id' => 5,
+    ]);
+
+      //Bahía Breeze
+      DB::table('benodigheden')->insert([
+      'id' =>  14,
+      'benodigheid' => 'Collins Glass',
       'cocktail_id' => 6,
     ]);
 
-      DB::table('benodigheden')->insert([
-      'id' =>  14,
-      'benodigheid' => 'Shaker',
-      'cocktail_id' => 7,
-    ]);
-
+      //Banshee
       DB::table('benodigheden')->insert([
       'id' =>  15,
-      'benodigheid' => 'Strainer',
+      'benodigheid' => 'Shaker',
       'cocktail_id' => 7,
     ]);
 
       DB::table('benodigheden')->insert([
       'id' =>  16,
-      'benodigheid' => 'Cocktail Glass',
+      'benodigheid' => 'Strainer',
       'cocktail_id' => 7,
     ]);
 
       DB::table('benodigheden')->insert([
       'id' =>  17,
-      'benodigheid' => 'Mixing Glass',
-      'cocktail_id' => 8,
+      'benodigheid' => 'Cocktail Glass',
+      'cocktail_id' => 7,
     ]);
 
+      //Barracuda
       DB::table('benodigheden')->insert([
       'id' =>  18,
-      'benodigheid' => 'Muddler',
+      'benodigheid' => 'Barspoon',
       'cocktail_id' => 8,
     ]);
 
       DB::table('benodigheden')->insert([
       'id' =>  19,
-      'benodigheid' => 'Barspoon',
+      'benodigheid' => 'Collins Glass',
       'cocktail_id' => 8,
     ]);
 
+      //Cape God
       DB::table('benodigheden')->insert([
       'id' =>  20,
-      'benodigheid' => 'Strainer',
-      'cocktail_id' => 8,
+      'benodigheid' => 'Barspoon',
+      'cocktail_id' => 9,
     ]);
 
       DB::table('benodigheden')->insert([
       'id' =>  21,
-      'benodigheid' => 'Champagne Glass',
-      'cocktail_id' => 8,
+      'benodigheid' => 'Old Fashioned Glass',
+      'cocktail_id' => 9,
     ]);
 
+      //Casino
       DB::table('benodigheden')->insert([
       'id' =>  22,
       'benodigheid' => 'Shaker',
-      'cocktail_id' => 9,
+      'cocktail_id' => 10,
     ]);
 
       DB::table('benodigheden')->insert([
       'id' =>  23,
       'benodigheid' => 'Strainer',
-      'cocktail_id' => 9,
+      'cocktail_id' => 10,
     ]);
 
       DB::table('benodigheden')->insert([
       'id' =>  24,
       'benodigheid' => 'Cocktail Glass',
-      'cocktail_id' => 9,
+      'cocktail_id' => 10,
     ]);
 
+      //Champagne Cobbler
       DB::table('benodigheden')->insert([
       'id' =>  25,
-      'benodigheid' => 'Shaker',
-      'cocktail_id' => 10,
+      'benodigheid' => 'Mixing Glass',
+      'cocktail_id' => 11,
     ]);
 
       DB::table('benodigheden')->insert([
       'id' =>  26,
-      'benodigheid' => 'Strainer',
-      'cocktail_id' => 10,
+      'benodigheid' => 'Muddler',
+      'cocktail_id' => 11,
     ]);
 
       DB::table('benodigheden')->insert([
       'id' =>  27,
-      'benodigheid' => 'Cocktail Glass',
-      'cocktail_id' => 10,
-    ]);
-
-      DB::table('benodigheden')->insert([
-      'id' =>  27,
-      'benodigheid' => 'Collins Glass',
+      'benodigheid' => 'Barspoon',
       'cocktail_id' => 11,
     ]);
 
       DB::table('benodigheden')->insert([
       'id' =>  28,
-      'benodigheid' => 'Mixing Glass',
-      'cocktail_id' => 12,
+      'benodigheid' => 'Strainer',
+      'cocktail_id' => 11,
     ]);
 
       DB::table('benodigheden')->insert([
       'id' =>  29,
-      'benodigheid' => 'Barspoon',
-      'cocktail_id' => 12,
+      'benodigheid' => 'Champagne Glass',
+      'cocktail_id' => 11,
     ]);
 
+      //Clover Club
       DB::table('benodigheden')->insert([
       'id' =>  30,
-      'benodigheid' => 'Strainer',
+      'benodigheid' => 'Shaker',
       'cocktail_id' => 12,
     ]);
 
       DB::table('benodigheden')->insert([
       'id' =>  31,
-      'benodigheid' => 'Cocktail Glass',
+      'benodigheid' => 'Strainer',
       'cocktail_id' => 12,
     ]);
 
       DB::table('benodigheden')->insert([
       'id' =>  32,
-      'benodigheid' => 'Mixing Glass',
-      'cocktail_id' => 13,
+      'benodigheid' => 'Cocktail Glass',
+      'cocktail_id' => 12,
     ]);
 
+      //Cubby Blue
       DB::table('benodigheden')->insert([
       'id' =>  33,
-      'benodigheid' => 'Barspoon',
+      'benodigheid' => 'Shot Glass',
       'cocktail_id' => 13,
     ]);
 
+      //Daiquiri
       DB::table('benodigheden')->insert([
       'id' =>  34,
-      'benodigheid' => 'Cocktail Glass',
-      'cocktail_id' => 13,
-    ]);
-
-      DB::table('benodigheden')->insert([
-      'id' =>  35,
       'benodigheid' => 'Shaker',
       'cocktail_id' => 14,
     ]);
 
       DB::table('benodigheden')->insert([
-      'id' =>  36,
+      'id' =>  35,
       'benodigheid' => 'Strainer',
       'cocktail_id' => 14,
     ]);
 
       DB::table('benodigheden')->insert([
-      'id' =>  37,
+      'id' =>  36,
       'benodigheid' => 'Cocktail Glass',
       'cocktail_id' => 14,
+    ]);
+
+      //Dark and Stormy
+      DB::table('benodigheden')->insert([
+      'id' =>  37,
+      'benodigheid' => 'Collins Glass',
+      'cocktail_id' => 15,
+    ]);
+
+      //De La Louisiane
+      DB::table('benodigheden')->insert([
+      'id' =>  38,
+      'benodigheid' => 'Mixing Glass',
+      'cocktail_id' => 16,
+    ]);
+
+      DB::table('benodigheden')->insert([
+      'id' =>  39,
+      'benodigheid' => 'Barspoon',
+      'cocktail_id' => 16,
+    ]);
+
+      DB::table('benodigheden')->insert([
+      'id' =>  40,
+      'benodigheid' => 'Strainer',
+      'cocktail_id' => 16,
+    ]);
+
+      DB::table('benodigheden')->insert([
+      'id' =>  41,
+      'benodigheid' => 'Cocktail Glass',
+      'cocktail_id' => 16,
+    ]);
+
+      //Derby
+      DB::table('benodigheden')->insert([
+      'id' =>  42,
+      'benodigheid' => 'Mixing Glass',
+      'cocktail_id' => 17,
+    ]);
+
+      DB::table('benodigheden')->insert([
+      'id' =>  43,
+      'benodigheid' => 'Barspoon',
+      'cocktail_id' => 17,
+    ]);
+
+      DB::table('benodigheden')->insert([
+      'id' =>  44,
+      'benodigheid' => 'Cocktail Glass',
+      'cocktail_id' => 17,
+    ]);
+
+      //El Presidente
+      DB::table('benodigheden')->insert([
+      'id' =>  45,
+      'benodigheid' => 'Shaker',
+      'cocktail_id' => 18,
+    ]);
+
+      DB::table('benodigheden')->insert([
+      'id' =>  46,
+      'benodigheid' => 'Strainer',
+      'cocktail_id' => 18,
+    ]);
+
+      DB::table('benodigheden')->insert([
+      'id' =>  47,
+      'benodigheid' => 'Cocktail Glass',
+      'cocktail_id' => 18,
     ]);
 
 
