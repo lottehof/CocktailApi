@@ -17,6 +17,10 @@ Route::get('/cocktail', 'CocktailController@index');
 
 Route::get('ingredient/by-cocktail-id/{cocktailId}', 'IngredientenController@getIngredientByCocktail');
 
+Route::get('benodigheden/by-cocktail-id/{cocktailId}', 'BenodighedenController@getBenodighedenByCocktail');
+
+Route::get('instructies/by-cocktail-id/{cocktailId}', 'InstructiesController@getInstructiesByCocktail');
+
 Route::get('/', function () {
     return view('welcome');
 });
