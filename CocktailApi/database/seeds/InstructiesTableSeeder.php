@@ -750,12 +750,1184 @@ DB::table('instructies')->insert([
 ]);
 
 DB::table('instructies')->insert([
-'id' =>  118,
+'id' =>  119,
 'instructie' => 'Strain into the cocktail glass',
 'cocktail_id' => 29,
 ]);
 
+//Harvey Wallbanger
+DB::table('instructies')->insert([
+'id' =>  120,
+'instructie' => 'Fill up the colinns glass with ice',
+'cocktail_id' => 30,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  121,
+'instructie' => 'Pour orange juice and vodka into the glass',
+'cocktail_id' => 30,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  122,
+'instructie' => 'Stir together',
+'cocktail_id' => 30,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  123,
+'instructie' => 'Add galliano drop by drop',
+'cocktail_id' => 30,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  124,
+'instructie' => 'Garnish with cocktail cherry and orange wedge',
+'cocktail_id' => 30,
+]);
+
+//Hemmingway DAIQUIRI
+DB::table('instructies')->insert([
+'id' =>  125,
+'instructie' => 'Add ice to the shaker',
+'cocktail_id' => 31,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  126,
+'instructie' => 'Pour white rum, lime juice, grapefruit and maraschino liqueur into the shaker',
+'cocktail_id' => 31,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  127,
+'instructie' => 'Shake well',
+'cocktail_id' => 31,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  128,
+'instructie' => 'Strain into the cocktail glass',
+'cocktail_id' => 31,
+]);
+
+//Horse neck
+DB::table('instructies')->insert([
+'id' =>  129,
+'instructie' => 'Fill up the collins glass with ice',
+'cocktail_id' => 32,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  130,
+'instructie' => 'Pour ginger ale and brandy into the glass',
+'cocktail_id' => 32,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  131,
+'instructie' => 'Stir together',
+'cocktail_id' => 32,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  132,
+'instructie' => 'Add Angostura Bitters drop by drop',
+'cocktail_id' => 32,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  133,
+'instructie' => 'garnish with Lemon Spiral',
+'cocktail_id' => 32,
+]);
+
+//Hurricane
+DB::table('instructies')->insert([
+'id' =>  134,
+'instructie' => 'Pour white rum, dark rum, galliano, lime juice, orange juice, pineapple juice, simple syrup, passion fruit syrup and Angostura Bitters into the shaker',
+'cocktail_id' => 33,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  135,
+'instructie' => 'Fill up the shaker with ice',
+'cocktail_id' => 33,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  136,
+'instructie' => 'Shake well',
+'cocktail_id' => 33,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  137,
+'instructie' => 'Strain into the glass',
+'cocktail_id' => 33,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  138,
+'instructie' => 'Garnish with orange slice',
+'cocktail_id' => 33,
+]);
+
+//Irish buck
+DB::table('instructies')->insert([
+'id' =>  139,
+'instructie' => 'Fill up the collins glass with Ice',
+'cocktail_id' => 34,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  140,
+'instructie' => 'Pour Irish Whiskey into Collins glass',
+'cocktail_id' => 34,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  141,
+'instructie' => 'Fill up the Collins glass with Ginger Ale',
+'cocktail_id' => 34,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  142,
+'instructie' => 'Garnish with Lemon Twist',
+'cocktail_id' => 34,
+]);
+
+//Irish Eyes
+DB::table('instructies')->insert([
+'id' =>  143,
+'instructie' => 'Fill up the glass with ice',
+'cocktail_id' => 35,
+]);
 
 
+DB::table('instructies')->insert([
+'id' =>  144,
+'instructie' => 'Fill up the shaker with ice',
+'cocktail_id' => 35,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  145,
+'instructie' => 'Pour Cream, Green Creme de Methe and Irish Whiskey into the Shaker',
+'cocktail_id' => 35,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  146,
+'instructie' => 'Shake well',
+'cocktail_id' => 35,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  147,
+'instructie' => 'Strain into the Old Fashioned glass',
+'cocktail_id' => 35,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  148,
+'instructie' => 'Garnish with cocktail cherry',
+'cocktail_id' => 35,
+]);
+
+//Irish flag
+DB::table('instructies')->insert([
+'id' =>  149,
+'instructie' => 'Pour Green Creme de Menthe into the glass',
+'cocktail_id' => 36,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  150,
+'instructie' => 'Gently layer the Baileys Irish Cream Liqueur',
+'cocktail_id' => 36,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  151,
+'instructie' => 'Gently layer the Grand Marnier',
+'cocktail_id' => 36,
+]);
+
+//Island BREEZE
+DB::table('instructies')->insert([
+'id' =>  152,
+'instructie' => 'Fill up the glass with ice cubes',
+'cocktail_id' => 37,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  153,
+'instructie' => 'Pour White Rum, Pineapple Juice, Cranberry and Angostura Bitters into the glass',
+'cocktail_id' => 37,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  154,
+'instructie' => 'Garnish with Lime Slice',
+'cocktail_id' => 37,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  155,
+'instructie' => 'Fill up the shaker with ice cubes',
+'cocktail_id' => 38,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  156,
+'instructie' => 'Pour Laids Straight Apple Brandy, Lemon Juice and Grenadine into the shaker',
+'cocktail_id' => 38,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  157,
+'instructie' => 'shake well',
+'cocktail_id' => 38,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  158,
+'instructie' => 'Strain into the Cocktail glass',
+'cocktail_id' => 38,
+]);
+
+//John collins
+DB::table('instructies')->insert([
+'id' =>  159,
+'instructie' => 'Fill up the collins glass with ice',
+'cocktail_id' => 39,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  160,
+'instructie' => 'Pour Lemon Juice, Simple Syrup and Gin into the glass',
+'cocktail_id' => 39,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  161,
+'instructie' => 'Stir together',
+'cocktail_id' => 39,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  162,
+'instructie' => 'Fill up the glass with club soda',
+'cocktail_id' => 39,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  163,
+'instructie' => 'Add Angostura Bitters drop by drop',
+'cocktail_id' => 39,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  164,
+'instructie' => 'Garnish with cocktail cherry and Lemon slice',
+'cocktail_id' => 39,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  165,
+'instructie' => 'Fill up the shaker with ice cubes',
+'cocktail_id' => 40,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  166,
+'instructie' => 'Pour vodka, Tprile sec and lime juice into the shaker',
+'cocktail_id' => 40,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  167,
+'instructie' => 'Shake well',
+'cocktail_id' => 40,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  168,
+'instructie' => 'Strain into the cocktail glass',
+'cocktail_id' => 40,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  169,
+'instructie' => 'Fill up the shaker with ice',
+'cocktail_id' => 41,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  170,
+'instructie' => 'Pour Lime Juice, Triple sec and Vodka into the shaker',
+'cocktail_id' => 41,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  171,
+'instructie' => 'Shake well',
+'cocktail_id' => 41,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  172,
+'instructie' => 'Strain into the shot glass',
+'cocktail_id' => 41,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  173,
+'instructie' => 'Add Strawbery and Simple Syrup to the shaker',
+'cocktail_id' => 42,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  174,
+'instructie' => 'Muddle gently',
+'cocktail_id' => 42,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  175,
+'instructie' => 'Add ice to the shaker',
+'cocktail_id' => 42,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  176,
+'instructie' => 'Pour Bourbon, Lemon Juice and Angostura Bitters into the shaker',
+'cocktail_id' => 42,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  177,
+'instructie' => 'Shake well',
+'cocktail_id' => 42,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  178,
+'instructie' => 'Strain into the collins glass',
+'cocktail_id' => 42,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  179,
+'instructie' => 'Fill up the collins glass with Ginger Beer',
+'cocktail_id' => 42,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  180,
+'instructie' => 'Garnish with Lemon wheel',
+'cocktail_id' => 42,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  181,
+'instructie' => 'Add Creme de cassis to the Champagne Glass',
+'cocktail_id' => 43,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  182,
+'instructie' => 'Fill up the glass with White Wine',
+'cocktail_id' => 43,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  183,
+'instructie' => 'Add Lemon Juicem Citruc Vodka, Triple sec and Ice cubes to the shaker',
+'cocktail_id' => 44,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  184,
+'instructie' => 'Shake well',
+'cocktail_id' => 44,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  185,
+'instructie' => 'Strain into the glass',
+'cocktail_id' => 44,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  186,
+'instructie' => 'Fill up the collins glass with crushed ice',
+'cocktail_id' => 45,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  187,
+'instructie' => 'Fill up the shaker with ice',
+'cocktail_id' => 45,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  188,
+'instructie' => 'Pour Lemon Juice, Simple Syrup and water into the shaker',
+'cocktail_id' => 45,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  189,
+'instructie' => 'Shake well',
+'cocktail_id' => 45,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  190,
+'instructie' => 'Strain into the Collins glass',
+'cocktail_id' => 45,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  191,
+'instructie' => 'Garnish with Lemon Wegde',
+'cocktail_id' => 45,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  192,
+'instructie' => 'Fill up the Collins Glass with Lime Juice, Simple Syrup and Angostura Bitters',
+'cocktail_id' => 46,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  193,
+'instructie' => 'Pour Club Soda into the Collins Glass',
+'cocktail_id' => 46,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  194,
+'instructie' => 'Garnish with Lime twist',
+'cocktail_id' => 46,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  195,
+'instructie' => 'Pour Simple Syrup, Lemon Juice, Gin, Triple sec, White Rum, Vodka and Tequila into the glass',
+'cocktail_id' => 47,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  196,
+'instructie' => 'Stir together',
+'cocktail_id' => 47,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  197,
+'instructie' => 'Fill up the glass with cola',
+'cocktail_id' => 47,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  198,
+'instructie' => 'Garnish with Lemon Wedge',
+'cocktail_id' => 47,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  199,
+'instructie' => 'Fill up the glass with ice',
+'cocktail_id' => 48,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  200,
+'instructie' => 'Fill up the shaker with ice cubes',
+'cocktail_id' => 48,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  201,
+'instructie' => 'Pour Dark Rum, White Rum, Orange Curacao, Lime Juice, Orgeat Syrup and Simple Syrup into shaker',
+'cocktail_id' => 48,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  202,
+'instructie' => 'Shake well',
+'cocktail_id' => 48,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  203,
+'instructie' => 'Strain into the Collins glass',
+'cocktail_id' => 48,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  204,
+'instructie' => 'Garnish with Lime Wheel, Mint Leaves, Pineapple wedges and Lime peel',
+'cocktail_id' => 48,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  205,
+'instructie' => 'Fill up the Mixer glass with ice cubes',
+'cocktail_id' => 49,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  206,
+'instructie' => 'Pour Angostura Bitters, Sweet Vermouth and Rye Whiskey into the mixing glass',
+'cocktail_id' => 49,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  207,
+'instructie' => 'Stir together',
+'cocktail_id' => 49,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  208,
+'instructie' => 'Strain into the Cocktail glass',
+'cocktail_id' => 49,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  209,
+'instructie' => 'Garnish with Cocktail Cherry',
+'cocktail_id' => 49,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  210,
+'instructie' => 'Garnish with Salt Rim',
+'cocktail_id' => 50,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  211,
+'instructie' => 'Pour Lime Juice, Cointreau and Tequila into the shaker',
+'cocktail_id' => 50,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  212,
+'instructie' => 'Shake well',
+'cocktail_id' => 50,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  213,
+'instructie' => 'Straint into the glass',
+'cocktail_id' => 50,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  214,
+'instructie' => 'Garnish with Lime Wedge',
+'cocktail_id' => 50,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  215,
+'instructie' => 'Pour Orange Juice into the Champagne glass',
+'cocktail_id' => 51,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  216,
+'instructie' => 'Add Champagne to the glass',
+'cocktail_id' => 51,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  217,
+'instructie' => 'Stir together',
+'cocktail_id' => 51,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  218,
+'instructie' => 'Garnish with Orange wedge',
+'cocktail_id' => 51,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  219,
+'instructie' => 'Fill up the Old Fashioned glass with ice',
+'cocktail_id' => 52,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  220,
+'instructie' => 'Pour Campari, Sweet Vermouth and Gin into the glass',
+'cocktail_id' => 52,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  221,
+'instructie' => 'Stir together',
+'cocktail_id' => 52,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  222,
+'instructie' => 'Garnish with Orange Wedge',
+'cocktail_id' => 52,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  223,
+'instructie' => 'Fill up the Old Fashioned Glass with ice',
+'cocktail_id' => 53,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  224,
+'instructie' => 'Pour Baileys Irish Cream liqueur, Frangelico into the shaker',
+'cocktail_id' => 53,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  225,
+'instructie' => 'Fill up the shaker with ice',
+'cocktail_id' => 53,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  226,
+'instructie' => 'Shake well',
+'cocktail_id' => 53,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  227,
+'instructie' => 'Strain into the Old Fashioned Glass',
+'cocktail_id' => 53,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  228,
+'instructie' => 'Add Sugar Cube to the Old Fashioned Glass',
+'cocktail_id' => 54,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  229,
+'instructie' => 'Pour Water and Angostura Bitters into the Old Fashioned glass',
+'cocktail_id' => 54,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  230,
+'instructie' => 'Crush Sugar Cube, Water and Angostura Bitters with Muddler',
+'cocktail_id' => 54,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  231,
+'instructie' => 'Fill up the Old Fashioned Glass with Ice Cubes',
+'cocktail_id' => 54,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  232,
+'instructie' => 'Pour Bourbon into the Old Fashioned Glass',
+'cocktail_id' => 54,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  233,
+'instructie' => 'Garnish with Orange Slice and Cocktail Cherry',
+'cocktail_id' => 54,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  234,
+'instructie' => 'Add Ice Cubes to the Mixing Glass',
+'cocktail_id' => 55,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  235,
+'instructie' => 'Pour Rye Whiskey, Dry Vermouth and Campari into the mixing glass',
+'cocktail_id' => 55,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  236,
+'instructie' => 'Stir together',
+'cocktail_id' => 55,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  237,
+'instructie' => 'Strain into the Cocktail glass',
+'cocktail_id' => 55,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  238,
+'instructie' => 'Garnish with Orange twist',
+'cocktail_id' => 55,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  239,
+'instructie' => 'Fill up the shaker with Crushed Ice',
+'cocktail_id' => 56,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  240,
+'instructie' => 'Pour Amaretto, Baileys Irish Cream liqueur and Kahlúa coffee liqueur into the shaker',
+'cocktail_id' => 56,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  241,
+'instructie' => 'Shake well',
+'cocktail_id' => 56,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  242,
+'instructie' => 'Strain into the shot glass',
+'cocktail_id' => 56,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  243,
+'instructie' => 'Pour White Rum, Pineapple Juice, Orange Juice and Coconut Cream into the shaker',
+'cocktail_id' => 57,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  244,
+'instructie' => 'Shake well',
+'cocktail_id' => 57,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  245,
+'instructie' => 'Strain into the Hurricane glass',
+'cocktail_id' => 57,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  246,
+'instructie' => 'Garnish with Nutmeg and Mint sprig',
+'cocktail_id' => 57,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  247,
+'instructie' => 'Add ice to the blender',
+'cocktail_id' => 58,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  248,
+'instructie' => 'Add Pineapple Juice, Coconut Cream and White Rum to the blender',
+'cocktail_id' => 58,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  249,
+'instructie' => 'Blender together',
+'cocktail_id' => 58,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  250,
+'instructie' => 'Strain into the Hurricane Glass',
+'cocktail_id' => 58,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  251,
+'instructie' => 'Garnish with Cocktail Cherry and Pineapple wedge',
+'cocktail_id' => 58,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  252,
+'instructie' => 'Add ice to the mixing glass',
+'cocktail_id' => 59,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  253,
+'instructie' => 'Pour Famouse Grouse, Dolin Blanc Vermouth and Angostura Orange Bitters into the Mixing glass',
+'cocktail_id' => 59,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  254,
+'instructie' => 'Stir together',
+'cocktail_id' => 59,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  255,
+'instructie' => 'Strain into the Cocktail glass',
+'cocktail_id' => 59,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  256,
+'instructie' => 'Garnish with Lemon twist',
+'cocktail_id' => 59,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  257,
+'instructie' => 'Fill up the shaker with ice cubes',
+'cocktail_id' => 60,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  258,
+'instructie' => 'Add Vodka, Simple Syrup, Lemon Juice and Crème de cassis tot the shaker',
+'cocktail_id' => 60,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  259,
+'instructie' => 'Shake well',
+'cocktail_id' => 60,
+]);
+
+
+DB::table('instructies')->insert([
+'id' =>  260,
+'instructie' => 'Strain into the Collins glass',
+'cocktail_id' => 60,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  261,
+'instructie' => 'Fill up the glass with White wine',
+'cocktail_id' => 60,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  262,
+'instructie' => 'Garnish with Lemon Wheel',
+'cocktail_id' => 60,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  263,
+'instructie' => 'Add Orange wheel, Lemon wheel and Lime wheel to the mixing glass',
+'cocktail_id' => 61,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  264,
+'instructie' => 'Pour Lemon Juice and Simple Syrup into the mixing glass',
+'cocktail_id' => 61,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  265,
+'instructie' => 'Muddle gently',
+'cocktail_id' => 61,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  266,
+'instructie' => 'Pour Red Wine, Brandy, Orange Curacao, Grape Juice, Orange Juice and Club Soda into the mixing glass',
+'cocktail_id' => 61,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  267,
+'instructie' => 'Stir together',
+'cocktail_id' => 61,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  268,
+'instructie' => 'Add Ice Cubes to the Sour glass',
+'cocktail_id' => 61,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  269,
+'instructie' => 'Strain into the Sour glass',
+'cocktail_id' => 61,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  270,
+'instructie' => 'Garnish with Orange wheel',
+'cocktail_id' => 61,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  271,
+'instructie' => 'Fill up the Collins glass with Ice Cubes',
+'cocktail_id' => 62,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  272,
+'instructie' => 'Pour Peach Schnapps and Vodka into the glass',
+'cocktail_id' => 62,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  273,
+'instructie' => 'Fill up the glass with Cranberry Juice and Orange Juice',
+'cocktail_id' => 62,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  274,
+'instructie' => 'Add Grenadine to the glass',
+'cocktail_id' => 62,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  275,
+'instructie' => 'Garnish with Orange Wedge',
+'cocktail_id' => 62,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  276,
+'instructie' => 'Fill up the Collins glass with ice',
+'cocktail_id' => 63,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  277,
+'instructie' => 'Pour Orange Juice and Tequila into the glass',
+'cocktail_id' => 63,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  278,
+'instructie' => 'Add Grenadine drop by drop',
+'cocktail_id' => 63,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  279,
+'instructie' => 'Garnish with Cocktail Cherry and Orange Wedge',
+'cocktail_id' => 63,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  280,
+'instructie' => 'Add Ice to the mixing glass',
+'cocktail_id' => 64,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  281,
+'instructie' => 'Pour Irish Whiskey and Carpano Antica Formula Vermouth into the mixing glass',
+'cocktail_id' => 64,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  282,
+'instructie' => 'Stir together',
+'cocktail_id' => 64,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  283,
+'instructie' => 'Stain into the Cocktail glass',
+'cocktail_id' => 64,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  284,
+'instructie' => 'Add Ice to the shaker',
+'cocktail_id' => 65,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  285,
+'instructie' => 'Add Worcestershire sauce, Tomato Juice, Tequila, Salt, Orange Juice, Onion, Lime Juice, Honey Syrup and Chili Pepper to the shaker',
+'cocktail_id' => 65,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  286,
+'instructie' => 'Shake well',
+'cocktail_id' => 65,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  287,
+'instructie' => 'Strain into the Collins glass',
+'cocktail_id' => 65,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  288,
+'instructie' => 'Garnish with Lime Slice',
+'cocktail_id' => 65,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  289,
+'instructie' => 'Fill up the Shaker with Ice Cubes',
+'cocktail_id' => 66,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  290,
+'instructie' => 'Pour Gin, Vodka, Lillet Blanc into the Shaker',
+'cocktail_id' => 66,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  291,
+'instructie' => 'Shake well',
+'cocktail_id' => 66,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  292,
+'instructie' => 'Strain into the Cocktail glass',
+'cocktail_id' => 66,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  293,
+'instructie' => 'Garnish with Lemon Spiral',
+'cocktail_id' => 66,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  294,
+'instructie' => 'Fill up the shaker with Ice Cubes',
+'cocktail_id' => 67,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  295,
+'instructie' => 'Pour Bourbon, Simple Syrup, Lemon Juice, Grenadine into the shaker',
+'cocktail_id' => 67,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  296,
+'instructie' => 'Shake well',
+'cocktail_id' => 67,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  297,
+'instructie' => 'Strain into the Old Fashioned glass',
+'cocktail_id' => 67,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  298,
+'instructie' => 'Garnish with Orange Slice and Cocktail Cherry',
+'cocktail_id' => 67,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  299,
+'instructie' => 'Fill up the shaker with ice',
+'cocktail_id' => 68,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  300,
+'instructie' => 'Pour Lemon Juice, Triple Gin into the shaker',
+'cocktail_id' => 68,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  301,
+'instructie' => 'Shake well',
+'cocktail_id' => 68,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  302,
+'instructie' => 'Strain into the Cocktail glass',
+'cocktail_id' => 68,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  303,
+'instructie' => 'Garnish with Lemon slice',
+'cocktail_id' => 68,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  304,
+'instructie' => 'Add White Rum, Lime Juice, Triple sec and Galliano to the shaker',
+'cocktail_id' => 69,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  305,
+'instructie' => 'Shake well',
+'cocktail_id' => 69,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  306,
+'instructie' => 'Strain into the Cocktail glass',
+'cocktail_id' => 69,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  307,
+'instructie' => 'Garnish with Lemon Wedge',
+'cocktail_id' => 69,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  308,
+'instructie' => 'Add Ice to the Hurricane glass',
+'cocktail_id' => 70,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  309,
+'instructie' => 'Add Ice to the shaker',
+'cocktail_id' => 70,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  310,
+'instructie' => 'Pour Dark Rum, White Rum, Orange Curacao, Lemon Juice, Lime Juice, Orange Juice, Passion Fruit Syrup, Grenadine and Angostura Bitters into the shakers',
+'cocktail_id' => 70,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  311,
+'instructie' => 'Shake well',
+'cocktail_id' => 70,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  312,
+'instructie' => 'Strain into the Hurricane glass',
+'cocktail_id' => 70,
+]);
+
+DB::table('instructies')->insert([
+'id' =>  313,
+'instructie' => 'Garnish with Orange Slice and Pineapple wedge',
+'cocktail_id' => 70,
+]);
     }
 }
