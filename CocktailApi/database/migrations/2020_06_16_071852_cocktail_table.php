@@ -23,6 +23,7 @@ class CocktailTable extends Migration
           $table->foreign('benodigheden_id')->references('id')->on('benodigheden');
           $table->id('instructies_id');
           $table->foreign('instructies_id')->references('id')->on('instructies');
+          $table->string('image_location');
 
 
       });

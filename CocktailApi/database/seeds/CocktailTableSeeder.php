@@ -11,13 +11,14 @@ class CocktailTableSeeder extends Seeder
      */
     public function run()
     {
-      DB::table('benodigheden')->insert([
+      DB::table('cocktail')->insert([
       'id' =>  '',
       'naam' => '',
       'sterkte' => ,
       'ingredienten_id' => ,
       'benodigheden_id' => ,
-      'instructies_id' => 
+      'instructies_id' => ,
+      'image_location'=>
 
 
     ]);
