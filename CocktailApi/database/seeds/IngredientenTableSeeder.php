@@ -11,6 +11,9 @@ class IngredientenTableSeeder extends Seeder
      */
     public function run()
     {
-        //
+      DB::table('ingredienten')->insert([
+      'id' =>  '',
+      'ingredient' => ''
+    ]);
     }
 }

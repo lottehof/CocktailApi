@@ -13,7 +13,10 @@ class IngredientenTable extends Migration
      */
     public function up()
     {
-        //
+      Schema::create('ingredienten', function (Blueprint $table) {
+              $table->id('id')->unique();
+              $table->string('ingredient');
+          });
     }
 
     /**
@@ -23,6 +26,6 @@ class IngredientenTable extends Migration
      */
     public function down()
     {
-        //
+        Schema::dropIfExists('ingredienten');
     }
 }

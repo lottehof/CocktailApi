@@ -13,7 +13,10 @@ class BenodighedenTable extends Migration
      */
     public function up()
     {
-        //
+      Schema::create('benodigheden', function (Blueprint $table) {
+          $table->id('id')->unique();
+          $table->string('benodigheid');
+
     }
 
     /**
@@ -23,6 +26,6 @@ class BenodighedenTable extends Migration
      */
     public function down()
     {
-        //
+        Schema::dropIfExists('benodigheden');
     }
 }

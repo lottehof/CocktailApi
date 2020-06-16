@@ -13,7 +13,10 @@ class InstructiesTable extends Migration
      */
     public function up()
     {
-        //
+      Schema::create('instructies', function (Blueprint $table) {
+          $table->id('id')->unique();
+          $table->string('instructie');
+
     }
 
     /**
@@ -23,6 +26,6 @@ class InstructiesTable extends Migration
      */
     public function down()
     {
-        //
+        Schema::dropIfExists('instructies');
     }
 }

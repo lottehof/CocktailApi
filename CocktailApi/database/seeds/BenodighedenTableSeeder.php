@@ -11,6 +11,9 @@ class BenodighedenTableSeeder extends Seeder
      */
     public function run()
     {
-        //
+      DB::table('benodigheden')->insert([
+      'id' =>  '',
+      'benodigheid' => ''
+    ]);
     }
 }
