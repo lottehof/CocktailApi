@@ -14,6 +14,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/cocktail', 'CocktailController@index');
+
+Route::get('ingredient/by-cocktail-id/{cocktailId}', 'IngredientenController@getIngredientByCocktail');
+
 Route::get('/', function () {
     return view('welcome');
 });
