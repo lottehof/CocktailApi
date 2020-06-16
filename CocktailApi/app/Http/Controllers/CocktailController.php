@@ -15,7 +15,21 @@ use Exception;
 class CocktailController extends Controller
 {
   public function index(){
-  //  return view('bier.index')->with('bieren', Bier::all());
-    return Cocktail::all();
+    return view('cocktail.index')->with('cocktails', Cocktail::all());
+  //  return Cocktail::all();
   }
+
+  public function store(Request $request){
+      $cocktail = new Cocktail();
+      $cocktail->naam = $request->input('naam');
+      $cocktail->sterkte = $request->input('sterkte');
+      $cocktail->image_location = $request->input("image_location");
+
+      try{
+      $cocktail->save();
+        return redirect('/cocktail');
+      }
+      catch(Exception $e){
+        return redirect('/cocktail/create');
+      }
 }

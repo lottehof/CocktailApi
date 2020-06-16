@@ -99,9 +99,9 @@ class CocktailTableSeeder extends Seeder
 
     DB::table('cocktail')->insert([
     'id' =>  13,
-    'naam' => 'Daiquiri',
-    'sterkte' => 18,
-    'image_location'=> '/img/cocktails/daiquiri.png',
+    'naam' => 'Cubby Blue',
+    'sterkte' => 30,
+    'image_location'=> '/img/cocktails/cubby.png',
   ]);
 
     DB::table('cocktail')->insert([
