@@ -13,17 +13,9 @@ class IngredientenTableSeeder extends Seeder
     {
       DB::table('ingredienten')->insert([
       'id' =>  '1',
-      'ingredient' => 'Vodka'
-    ]);
-
-      DB::table('ingredienten')->insert([
-      'id' =>  '1',
-      'ingredient' => 'Blue Curacao'
-    ]);
-
-      DB::table('ingredienten')->insert([
-      'id' =>  '1',
-      'ingredient' => 'Grenadine'
+      'ingredient' => 'Vodka
+                       Blue Curacao
+                       Grenadine'
     ]);
 
     }

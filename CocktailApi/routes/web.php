@@ -13,6 +13,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::get('/cocktail/{cocktailNaam}','CocktailController@show');
+
+
 Route::get('/', function () {
     return view('welcome');
 });

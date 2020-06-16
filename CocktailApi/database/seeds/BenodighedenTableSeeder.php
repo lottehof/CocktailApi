@@ -13,12 +13,8 @@ class BenodighedenTableSeeder extends Seeder
     {
       DB::table('benodigheden')->insert([
       'id' =>  '1',
-      'benodigheid' => 'Barspoon'
-    ]);
-
-      DB::table('benodigheden')->insert([
-      'id' =>  '1',
-      'benodigheid' => 'Shot Glass'
+      'benodigheid' => 'Barspoon
+                        Shot Glass'
     ]);
 
 

@@ -17,9 +17,9 @@ class CocktailTable extends Migration
           $table->id('id')->unique();
           $table->string('naam');
           $table->integer('sterkte');
-          $table->integer('ingredienten_id')->references('id')->on('ingredienten');
-          $table->integer('benodigheden_id')->references('id')->on('benodigheden');
-          $table->integer('instructies_id')->references('id')->on('instructies');
+          $table->foreign('ingredienten_id')->references('id')->on('ingredienten');
+          $table->foreign('benodigheden_id')->references('id')->on('benodigheden');
+          $table->foreign('instructies_id')->references('id')->on('instructies');
           $table->string('image_location');
 
 

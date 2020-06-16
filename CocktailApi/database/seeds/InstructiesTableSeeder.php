@@ -13,17 +13,10 @@ class InstructiesTableSeeder extends Seeder
     {
       DB::table('instructies')->insert([
       'id' =>  '1',
-      'instructie' => 'Pour Grenadine into the Shot Glass'
+      'instructie' => 'Pour Grenadine into the Shot Glass
+                       Gently layer the Vodka
+                       Gently layer the Blue Curacao'
     ]);
 
-      DB::table('instructies')->insert([
-      'id' =>  '1',
-      'instructie' => 'Gently layer the Vodka'
-    ]);
-
-      DB::table('instructies')->insert([
-      'id' =>  '1',
-      'instructie' => 'Gently layer the Blue Curacao'
-    ]);
     }
 }

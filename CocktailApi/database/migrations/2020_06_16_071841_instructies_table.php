@@ -14,8 +14,8 @@ class InstructiesTable extends Migration
     public function up()
     {
       Schema::create('instructies', function (Blueprint $table) {
-          $table->integer('id');
-          $table->string('instructie');
+          $table->integer('id')->unique();
+          $table->text('instructie');
   });
     }
 
