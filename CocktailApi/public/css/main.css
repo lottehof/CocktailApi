@@ -1,0 +1,13 @@
+.cardheader__img{
+  height: 10rem;
+  width: auto;
+}
+
+.cardcontainer{
+  margin: .5em;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-auto-columns: auto;
+  grid-gap: 1rem;
+  align-items: center;
+}

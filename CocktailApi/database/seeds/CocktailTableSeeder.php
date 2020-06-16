@@ -100,8 +100,8 @@ class CocktailTableSeeder extends Seeder
     DB::table('cocktail')->insert([
     'id' =>  13,
     'naam' => 'Cubby Blue',
-    'sterkte' => 18,
-    'image_location'=> '/img/cocktails/cubbyblue.png',
+    'sterkte' => 30,
+    'image_location'=> '/img/cocktails/cubby.png',
   ]);
 
     DB::table('cocktail')->insert([
