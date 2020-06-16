@@ -14,8 +14,11 @@ class BenodighedenTable extends Migration
     public function up()
     {
       Schema::create('benodigheden', function (Blueprint $table) {
-          $table->integer('id')->unique();
+          $table->id('id')->unique();
           $table->string('benodigheid');
+          $table->foreignId('cocktail_id');
+          $table->foreign('cocktail_id')->references('id')->on('cocktail');
+
         });
     }
 
@@ -26,6 +29,9 @@ class BenodighedenTable extends Migration
      */
     public function down()
     {
+      Schema::table('benodigheden', function($table){
+          $table->dropForeign('benodigheden_cocktail_id_foreign');
+        });
         Schema::dropIfExists('benodigheden');
     }
   }

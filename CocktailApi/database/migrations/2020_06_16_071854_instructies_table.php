@@ -14,8 +14,10 @@ class InstructiesTable extends Migration
     public function up()
     {
       Schema::create('instructies', function (Blueprint $table) {
-          $table->integer('id')->unique();
+          $table->id('id')->unique();
           $table->string('instructie');
+          $table->foreignId('cocktail_id');
+          $table->foreign('cocktail_id')->references('id')->on('cocktail');
   });
     }
 
@@ -26,6 +28,9 @@ class InstructiesTable extends Migration
      */
     public function down()
     {
+      Schema::table('instructies', function($table){
+          $table->dropForeign('instructies_cocktail_id_foreign');
+        });
         Schema::dropIfExists('instructies');
     }
 }

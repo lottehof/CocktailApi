@@ -16,6 +16,8 @@ class IngredientenTable extends Migration
       Schema::create('ingredienten', function (Blueprint $table) {
               $table->integer('id')->unique();
               $table->string('ingredient');
+              $table->foreignId('cocktail_id');
+              $table->foreign('cocktail_id')->references('id')->on('cocktail');
           });
     }
 
@@ -26,6 +28,11 @@ class IngredientenTable extends Migration
      */
     public function down()
     {
+      Schema::table('ingredienten', function($table){
+          $table->dropForeign('ingredienten_cocktail_id_foreign');
+        });
         Schema::dropIfExists('ingredienten');
+
+
     }
 }
