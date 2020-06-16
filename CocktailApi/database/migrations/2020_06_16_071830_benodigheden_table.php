@@ -14,7 +14,7 @@ class BenodighedenTable extends Migration
     public function up()
     {
       Schema::create('benodigheden', function (Blueprint $table) {
-          $table->integer('id')->unique();
+          $table->integer('id');
           $table->string('benodigheid');
         });
     }
