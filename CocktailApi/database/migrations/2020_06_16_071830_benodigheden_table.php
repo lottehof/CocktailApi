@@ -14,9 +14,9 @@ class BenodighedenTable extends Migration
     public function up()
     {
       Schema::create('benodigheden', function (Blueprint $table) {
-          $table->id('id')->unique();
+          $table->integer('id')->unique();
           $table->string('benodigheid');
-
+        });
     }
 
     /**
@@ -28,4 +28,4 @@ class BenodighedenTable extends Migration
     {
         Schema::dropIfExists('benodigheden');
     }
-}
+  }
