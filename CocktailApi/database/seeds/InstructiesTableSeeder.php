@@ -12,8 +12,18 @@ class InstructiesTableSeeder extends Seeder
     public function run()
     {
       DB::table('instructies')->insert([
-      'id' =>  '',
-      'instructie' => ''
+      'id' =>  '1',
+      'instructie' => 'Pour Grenadine into the Shot Glass'
+    ]);
+
+      DB::table('instructies')->insert([
+      'id' =>  '1',
+      'instructie' => 'Gently layer the Vodka'
+    ]);
+
+      DB::table('instructies')->insert([
+      'id' =>  '1',
+      'instructie' => 'Gently layer the Blue Curacao'
     ]);
     }
 }
