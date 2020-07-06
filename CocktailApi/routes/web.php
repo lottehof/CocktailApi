@@ -23,6 +23,8 @@ Route::get('benodigheden/by-cocktail-id/{cocktailId}', 'BenodighedenController@g
 
 Route::get('instructies/by-cocktail-id/{cocktailId}', 'InstructiesController@getInstructiesByCocktail');
 
+Route::get('cocktail/by-cocktail-id/{cocktailId}', 'CocktailController@getCocktailsById');
+
 Route::get('/', function () {
     return view('welcome');
 });
