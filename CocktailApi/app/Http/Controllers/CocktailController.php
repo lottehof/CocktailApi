@@ -18,6 +18,22 @@ class CocktailController extends Controller
     // return view('cocktail.index')->with('cocktails', Cocktail::all());
     return Cocktail::all();
   }
+  public function show(){
+    return Cocktail::with("ingredienten")->with("benodigheden")->with('instructies')->get();
+  }
+
+  public function CocktailById($cocktailId){
+    return Cocktail::where('id', '=', $cocktailId)->first();
+  }
+
+  public function getCocktailsById($cocktailId){
+    $cocktail = Cocktail::with("ingredienten")->with("benodigheden")->with('instructies')->find($cocktailId);
+    if ($cocktail) {
+      return response()->json($cocktail, 200);
+    } else {
+      return response()->json(["message" => "No company found with company id: " . $cocktailyId . "."], 404);
+    }
+  }
 
   public function store(Request $request){
       $cocktail = new Cocktail();
@@ -33,13 +49,26 @@ class CocktailController extends Controller
         return redirect('/cocktail/create');
       }
 
+}
 
-  public function getCocktailsById($cocktailId){
-    $cocktail = Cocktail::with("ingredienten")->with("benodigheden")->with('instructies')->find($cocktailId);
-    if ($cocktail) {
-      return response()->json($cocktail, 200);
-    } else {
-      return response()->json(["message" => "No company found with company id: " . $cocktailyId . "."], 404);
+  public function getStrength($strength){
+    if($strength == 'non-alcoholic'){
+      return Cocktail::where('sterkte', '=', 0)->get();
+    }
+
+    else if($strength == 'light'){
+      return Cocktail::where('sterkte', '>', 1)->where('sterkte', '<', 10)->get();
+    }
+
+    else if($strength == 'medium'){
+      return Cocktail::where('sterkte', '>', 11)->where('sterkte', '<', 19)->get();
+    }
+
+    else if($strength == 'strong'){
+      return Cocktail::where('sterkte', '>', 20)->get();
     }
   }
+
+
+
 }

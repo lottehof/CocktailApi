@@ -17,3 +17,20 @@ use Illuminate\Support\Facades\Route;
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
+
+
+Route::get('/cocktail', 'CocktailController@index');
+Route::get('/cocktails', 'CocktailController@show');
+
+Route::get('/cocktail/{cocktailId}', 'CocktailController@CocktailById');
+
+
+Route::get('ingredient/by-cocktail-id/{cocktailId}', 'IngredientenController@getIngredientByCocktail');
+
+Route::get('benodigheden/by-cocktail-id/{cocktailId}', 'BenodighedenController@getBenodighedenByCocktail');
+
+Route::get('instructies/by-cocktail-id/{cocktailId}', 'InstructiesController@getInstructiesByCocktail');
+
+Route::get('cocktail/by-cocktail-id/{cocktailId}', 'CocktailController@getCocktailsById');
+
+Route::get('cocktail/{strength}', 'CocktailController@getStrength');
