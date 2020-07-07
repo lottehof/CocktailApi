@@ -18,6 +18,7 @@ class CocktailTable extends Migration
           $table->string('naam');
           $table->integer('sterkte');
           $table->string('image_location');
+          
 
 
       });
