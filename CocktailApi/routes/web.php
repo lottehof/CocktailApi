@@ -28,3 +28,7 @@ Route::get('cocktail/by-cocktail-id/{cocktailId}', 'CocktailController@getCockta
 Route::get('/', function () {
     return view('welcome');
 });
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
