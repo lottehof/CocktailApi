@@ -26,3 +26,7 @@ Route::get('instructies/by-cocktail-id/{cocktailId}', 'InstructiesController@get
 Route::get('/', function () {
     return view('welcome');
 });
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
