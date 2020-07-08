@@ -14,38 +14,38 @@ class IngredientenTableSeeder extends Seeder
       //4th of July
       DB::table('ingredienten')->insert([
       'id' =>  1,
-      'ingredient' => 'Vodka',
+      'ingredient' => '22.5 ml Vodka',
       'cocktail_id' => 1,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  2,
-      'ingredient' => 'Blue Curacao',
+      'ingredient' => '22.5 ml Blue Curacao',
       'cocktail_id' => 1,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  3,
-      'ingredient' => 'Grenadine',
+      'ingredient' => '22.5 ml Grenadine',
       'cocktail_id' => 1,
     ]);
 
       //ABC Pousse Café
       DB::table('ingredienten')->insert([
       'id' =>  4,
-      'ingredient' => 'Amaretto',
+      'ingredient' => '15 ml Amaretto',
       'cocktail_id' => 2,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  5,
-      'ingredient' => 'Baileys Irish Cream Liqueur',
+      'ingredient' => '15 ml Baileys Irish Cream Liqueur',
       'cocktail_id' => 2,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  6,
-      'ingredient' => 'Cointreau',
+      'ingredient' => '15 ml Cointreau',
       'cocktail_id' => 2,
     ]);
 
@@ -58,25 +58,25 @@ class IngredientenTableSeeder extends Seeder
     //Abbey Cocktail
       DB::table('ingredienten')->insert([
       'id' =>  8,
-      'ingredient' => 'Gin',
+      'ingredient' => '45 ml Gin',
       'cocktail_id' => 3,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  9,
-      'ingredient' => 'Lillet Blanc',
+      'ingredient' => '22.5 ml Lillet Blanc',
       'cocktail_id' => 3,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  10,
-      'ingredient' => 'Orange Juice',
+      'ingredient' => '30 ml Orange Juice',
       'cocktail_id' => 3,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  11,
-      'ingredient' => 'Angostura Bitters',
+      'ingredient' => '1 dash Angostura Bitters',
       'cocktail_id' => 3,
     ]);
 
@@ -95,19 +95,19 @@ class IngredientenTableSeeder extends Seeder
       //Absinthe Frappé
       DB::table('ingredienten')->insert([
       'id' =>  14,
-      'ingredient' => 'Absinthe',
+      'ingredient' => '30 ml Absinthe',
       'cocktail_id' => 4,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  15,
-      'ingredient' => 'Simple Syrup',
+      'ingredient' => '15 ml Simple Syrup',
       'cocktail_id' => 4,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  16,
-      'ingredient' => 'Water',
+      'ingredient' => '60 ml Water',
       'cocktail_id' => 4,
     ]);
 
@@ -120,19 +120,19 @@ class IngredientenTableSeeder extends Seeder
       //Bacardi
       DB::table('ingredienten')->insert([
       'id' =>  18,
-      'ingredient' => 'White Rum',
+      'ingredient' => '45 ml White Rum',
       'cocktail_id' => 5,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  19,
-      'ingredient' => 'Lime Juice',
+      'ingredient' => '20 ml Lime Juice',
       'cocktail_id' => 5,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  20,
-      'ingredient' => 'Grenadine',
+      'ingredient' => '10 ml Grenadine',
       'cocktail_id' => 5,
     ]);
 
@@ -145,19 +145,19 @@ class IngredientenTableSeeder extends Seeder
       //Bahía Breeze
       DB::table('ingredienten')->insert([
       'id' =>  22,
-      'ingredient' => 'Tequila Reposado',
+      'ingredient' => '45 ml Tequila Reposado',
       'cocktail_id' => 6,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  23,
-      'ingredient' => 'Pineapple Juice',
+      'ingredient' => '120 ml Pineapple Juice',
       'cocktail_id' => 6,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  24,
-      'ingredient' => 'Cranberry Juice',
+      'ingredient' => '45 ml Cranberry Juice',
       'cocktail_id' => 6,
     ]);
 
@@ -176,19 +176,19 @@ class IngredientenTableSeeder extends Seeder
       //Banshee
       DB::table('ingredienten')->insert([
       'id' =>  27,
-      'ingredient' => 'Banana Liquer',
+      'ingredient' => '30 ml Banana Liquer',
       'cocktail_id' => 7,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  28,
-      'ingredient' => 'White Crème de Cacao',
+      'ingredient' => '30 ml White Crème de Cacao',
       'cocktail_id' => 7,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  29,
-      'ingredient' => 'Heavy cream',
+      'ingredient' => '60 ml Heavy cream',
       'cocktail_id' => 7,
     ]);
 
@@ -201,44 +201,44 @@ class IngredientenTableSeeder extends Seeder
       //Barracuda
       DB::table('ingredienten')->insert([
       'id' =>  31,
-      'ingredient' => 'Gold Rum',
+      'ingredient' => '45 ml Gold Rum',
       'cocktail_id' => 8,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  32,
-      'ingredient' => 'Galliano',
+      'ingredient' => '15 ml Galliano',
       'cocktail_id' => 8,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  33,
-      'ingredient' => 'Pineapple Juice',
+      'ingredient' => '60 ml Pineapple Juice',
       'cocktail_id' => 8,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  34,
-      'ingredient' => 'Lime Juice',
+      'ingredient' => '1 dash Lime Juice',
       'cocktail_id' => 8,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  35,
-      'ingredient' => 'Prosecco',
+      'ingredient' => '20 ml Prosecco',
       'cocktail_id' => 8,
     ]);
 
       //Cape god
       DB::table('ingredienten')->insert([
       'id' =>  36,
-      'ingredient' => 'Vodka',
+      'ingredient' => '45 ml Vodka',
       'cocktail_id' => 9,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  37,
-      'ingredient' => 'Cranberry Juice',
+      'ingredient' => '67.5 ml Cranberry Juice',
       'cocktail_id' => 9,
     ]);
 
@@ -257,25 +257,25 @@ class IngredientenTableSeeder extends Seeder
       //Casino
       DB::table('ingredienten')->insert([
       'id' =>  40,
-      'ingredient' => 'Old Tom Gin',
+      'ingredient' => '45 ml Old Tom Gin',
       'cocktail_id' => 10,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  41,
-      'ingredient' => 'Maraschino Liquer',
+      'ingredient' => '10 ml Maraschino Liquer',
       'cocktail_id' => 10,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  42,
-      'ingredient' => 'Lemon Juice',
+      'ingredient' => '10 ml Lemon Juice',
       'cocktail_id' => 10,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  43,
-      'ingredient' => 'Orange Bitters',
+      'ingredient' => '10 ml Orange Bitters',
       'cocktail_id' => 10,
     ]);
 
@@ -300,31 +300,31 @@ class IngredientenTableSeeder extends Seeder
       //Campagne Cobbler
       DB::table('ingredienten')->insert([
       'id' =>  47,
-      'ingredient' => 'Champagne',
+      'ingredient' => '120 ml Champagne',
       'cocktail_id' => 11,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  48,
-      'ingredient' => 'Luxardo Maraschino Liquer',
+      'ingredient' => '22.5 ml Luxardo Maraschino Liquer',
       'cocktail_id' => 11,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  49,
-      'ingredient' => 'Orange Wedge',
+      'ingredient' => '2 Orange Wedge',
       'cocktail_id' => 11,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  50,
-      'ingredient' => 'Lemon Wedge',
+      'ingredient' => '2 Lemon Wedge',
       'cocktail_id' => 11,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  51,
-      'ingredient' => 'Pineapple Wedge',
+      'ingredient' => '2 Pineapple Wedge',
       'cocktail_id' => 11,
     ]);
 
@@ -343,25 +343,25 @@ class IngredientenTableSeeder extends Seeder
       //Clover Club
       DB::table('ingredienten')->insert([
       'id' =>  54,
-      'ingredient' => 'Gin',
+      'ingredient' => '45 ml Gin',
       'cocktail_id' => 12,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  55,
-      'ingredient' => 'Raspberry Syrup',
+      'ingredient' => '15 ml Raspberry Syrup',
       'cocktail_id' => 12,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  56,
-      'ingredient' => 'Lemon Juice',
+      'ingredient' => '15 ml Lemon Juice',
       'cocktail_id' => 12,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  57,
-      'ingredient' => 'Egg White',
+      'ingredient' => '1 Egg White',
       'cocktail_id' => 12,
     ]);
 
@@ -374,38 +374,38 @@ class IngredientenTableSeeder extends Seeder
       //Cubby Blue
       DB::table('ingredienten')->insert([
       'id' =>  59,
-      'ingredient' => 'Bacardi Carta Blanca',
+      'ingredient' => '30 ml Bacardi Carta Blanca',
       'cocktail_id' => 13,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  60,
-      'ingredient' => 'Blue Curacao',
+      'ingredient' => '30 ml Blue Curacao',
       'cocktail_id' => 13,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  61,
-      'ingredient' => 'Grenadine',
+      'ingredient' => '1 splash Grenadine',
       'cocktail_id' => 13,
     ]);
 
       //Daiquiri
       DB::table('ingredienten')->insert([
       'id' =>  62,
-      'ingredient' => 'White Rum',
+      'ingredient' => '45 ml White Rum',
       'cocktail_id' => 14,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  63,
-      'ingredient' => 'Lime Juice',
+      'ingredient' => '25 ml Lime Juice',
       'cocktail_id' => 14,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  64,
-      'ingredient' => 'Simple Syrup',
+      'ingredient' => '15 ml Simple Syrup',
       'cocktail_id' => 14,
     ]);
 
@@ -424,13 +424,13 @@ class IngredientenTableSeeder extends Seeder
       //Dark and Stormy
       DB::table('ingredienten')->insert([
       'id' =>  67,
-      'ingredient' => 'Dark Rum',
+      'ingredient' => '60 ml Dark Rum',
       'cocktail_id' => 15,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  68,
-      'ingredient' => 'Ginger Beer',
+      'ingredient' => '100 ml Ginger Beer',
       'cocktail_id' => 15,
     ]);
 
@@ -449,31 +449,31 @@ class IngredientenTableSeeder extends Seeder
       //De La Louisiane
       DB::table('ingredienten')->insert([
       'id' =>  71,
-      'ingredient' => 'Rye Whiskey',
+      'ingredient' => '60 ml Rye Whiskey',
       'cocktail_id' => 16,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  72,
-      'ingredient' => 'Dolin Blanc Vermouth',
+      'ingredient' => '22.5 ml Dolin Blanc Vermouth',
       'cocktail_id' => 16,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  73,
-      'ingredient' => 'Benedictine D.O.M.',
+      'ingredient' => '22.5 ml Benedictine D.O.M.',
       'cocktail_id' => 16,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  74,
-      'ingredient' => 'Absinthe',
+      'ingredient' => '3 dash Absinthe',
       'cocktail_id' => 16,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  75,
-      'ingredient' => 'Peychauds Bitters',
+      'ingredient' => '3 dash Peychauds Bitters',
       'cocktail_id' => 16,
     ]);
 
@@ -492,13 +492,13 @@ class IngredientenTableSeeder extends Seeder
       //Derby
       DB::table('ingredienten')->insert([
       'id' =>  78,
-      'ingredient' => 'Gin',
+      'ingredient' => '60 ml Gin',
       'cocktail_id' => 17,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  79,
-      'ingredient' => 'Peach Bitters',
+      'ingredient' => '2 drops Peach Bitters',
       'cocktail_id' => 17,
     ]);
 
@@ -517,25 +517,25 @@ class IngredientenTableSeeder extends Seeder
       //El Presidente
       DB::table('ingredienten')->insert([
       'id' =>  82,
-      'ingredient' => 'White Rum',
+      'ingredient' => '45 ml White Rum',
       'cocktail_id' => 18,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  83,
-      'ingredient' => 'Dry Vermouth',
+      'ingredient' => '22.5 ml Dry Vermouth',
       'cocktail_id' => 18,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  84,
-      'ingredient' => 'Pierre Ferrand Dry Curacao',
+      'ingredient' => '15 ml Pierre Ferrand Dry Curacao',
       'cocktail_id' => 18,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  85,
-      'ingredient' => 'Grenadine',
+      'ingredient' => '0.5 tsp Grenadine',
       'cocktail_id' => 18,
     ]);
 
@@ -548,37 +548,37 @@ class IngredientenTableSeeder extends Seeder
       //Electric Iced Tea
       DB::table('ingredienten')->insert([
       'id' =>  87,
-      'ingredient' => 'Bourbon',
+      'ingredient' => '15 ml Bourbon',
       'cocktail_id' => 19,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  88,
-      'ingredient' => 'Vodka',
+      'ingredient' => '15 ml Vodka',
       'cocktail_id' => 19,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  89,
-      'ingredient' => 'Gin',
+      'ingredient' => '15 ml Gin',
       'cocktail_id' => 19,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  90,
-      'ingredient' => 'Triple sec',
+      'ingredient' => '15 ml Triple sec',
       'cocktail_id' => 19,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  91,
-      'ingredient' => 'Cola',
+      'ingredient' => '90 ml Cola',
       'cocktail_id' => 19,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  92,
-      'ingredient' => 'Lemon Wedge',
+      'ingredient' => '2 Lemon Wedge',
       'cocktail_id' => 19,
     ]);
 
@@ -591,19 +591,19 @@ class IngredientenTableSeeder extends Seeder
       //Emerald Isle
       DB::table('ingredienten')->insert([
       'id' =>  94,
-      'ingredient' => 'Gin',
+      'ingredient' => '30 ml Gin',
       'cocktail_id' => 20,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  95,
-      'ingredient' => 'Green Crème de Menthe',
+      'ingredient' => '1 tsp Green Crème de Menthe',
       'cocktail_id' => 20,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  96,
-      'ingredient' => 'Angostura Bitters',
+      'ingredient' => '2 dash Angostura Bitters',
       'cocktail_id' => 20,
     ]);
 
@@ -615,50 +615,50 @@ class IngredientenTableSeeder extends Seeder
       //Espresso Martini
       DB::table('ingredienten')->insert([
       'id' =>  98,
-      'ingredient' => 'Vodka',
+      'ingredient' => '40 ml Vodka',
       'cocktail_id' => 21,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  99,
-      'ingredient' => 'Coffee Liquer',
+      'ingredient' => '10 ml Coffee Liquer',
       'cocktail_id' => 21,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  100,
-      'ingredient' => 'Simple Syrup',
+      'ingredient' => '20 ml Simple Syrup',
       'cocktail_id' => 21,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  101,
-      'ingredient' => 'Coffee',
+      'ingredient' => '45 ml Coffee',
       'cocktail_id' => 21,
     ]);
 
       //Fitzgerald
       DB::table('ingredienten')->insert([
       'id' =>  102,
-      'ingredient' => 'Beefeater Gin',
+      'ingredient' => '60 ml Beefeater Gin',
       'cocktail_id' => 22,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  103,
-      'ingredient' => 'Lemon Juice',
+      'ingredient' => '22.5 ml Lemon Juice',
       'cocktail_id' => 22,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  104,
-      'ingredient' => 'Simple Syrup',
+      'ingredient' => '30 ml Simple Syrup',
       'cocktail_id' => 22,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  105,
-      'ingredient' => 'Angostura Bitters',
+      'ingredient' => '2 dash Angostura Bitters',
       'cocktail_id' => 22,
     ]);
 
@@ -677,19 +677,19 @@ class IngredientenTableSeeder extends Seeder
       //Freddy Fudpucker
       DB::table('ingredienten')->insert([
       'id' =>  108,
-      'ingredient' => 'Tequila',
+      'ingredient' => '45 ml Tequila',
       'cocktail_id' => 23,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  109,
-      'ingredient' => 'Galliano',
+      'ingredient' => '15 ml Galliano',
       'cocktail_id' => 23,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  110,
-      'ingredient' => 'Orange Juice',
+      'ingredient' => '150 ml Orange Juice',
       'cocktail_id' => 23,
     ]);
 
@@ -702,25 +702,25 @@ class IngredientenTableSeeder extends Seeder
       //French 75
       DB::table('ingredienten')->insert([
       'id' =>  112,
-      'ingredient' => 'Gin',
+      'ingredient' => '30 ml Gin',
       'cocktail_id' => 24,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  113,
-      'ingredient' => 'Champagne',
+      'ingredient' => '60 ml Champagne',
       'cocktail_id' => 24,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  114,
-      'ingredient' => 'Lemon Juice',
+      'ingredient' => '15 ml Lemon Juice',
       'cocktail_id' => 24,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  115,
-      'ingredient' => 'Simple Syrup',
+      'ingredient' => '2 dash Simple Syrup',
       'cocktail_id' => 24,
     ]);
 
@@ -733,19 +733,19 @@ class IngredientenTableSeeder extends Seeder
       //French Martini
       DB::table('ingredienten')->insert([
       'id' =>  117,
-      'ingredient' => 'Vodka',
+      'ingredient' => '60 ml Vodka',
       'cocktail_id' => 25,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  118,
-      'ingredient' => 'Pineapple Juice',
+      'ingredient' => '50 ml Pineapple Juice',
       'cocktail_id' => 25,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  119,
-      'ingredient' => 'Raspberry Liquer',
+      'ingredient' => '7,5 ml Raspberry Liquer',
       'cocktail_id' => 25,
     ]);
 
@@ -758,13 +758,13 @@ class IngredientenTableSeeder extends Seeder
       //God Father
       DB::table('ingredienten')->insert([
       'id' =>  121,
-      'ingredient' => 'Scotch Whisky',
+      'ingredient' => '35 ml Scotch Whisky',
       'cocktail_id' => 26,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  122,
-      'ingredient' => 'Amaretto',
+      'ingredient' => '35 ml Amaretto',
       'cocktail_id' => 26,
     ]);
 
@@ -777,13 +777,13 @@ class IngredientenTableSeeder extends Seeder
       //God Mother
       DB::table('ingredienten')->insert([
       'id' =>  124,
-      'ingredient' => 'Vodka',
+      'ingredient' => '35 ml Vodka',
       'cocktail_id' => 27,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  125,
-      'ingredient' => 'Amaretto',
+      'ingredient' => '35 ml Amaretto',
       'cocktail_id' => 27,
     ]);
 
@@ -796,25 +796,25 @@ class IngredientenTableSeeder extends Seeder
       //Golden Dream
       DB::table('ingredienten')->insert([
       'id' =>  127,
-      'ingredient' => 'Galliano',
+      'ingredient' => '20 ml Galliano',
       'cocktail_id' => 28,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  128,
-      'ingredient' => 'Triple sec',
+      'ingredient' => '20 ml Triple sec',
       'cocktail_id' => 28,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  129,
-      'ingredient' => 'Orange Juice',
+      'ingredient' => '20 ml Orange Juice',
       'cocktail_id' => 28,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  130,
-      'ingredient' => 'Cream',
+      'ingredient' => '10 ml Cream',
       'cocktail_id' => 28,
     ]);
 
@@ -827,19 +827,19 @@ class IngredientenTableSeeder extends Seeder
       //Grasshopper
       DB::table('ingredienten')->insert([
       'id' =>  132,
-      'ingredient' => 'White Crème de Cacao',
+      'ingredient' => '30 ml White Crème de Cacao',
       'cocktail_id' => 29,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  133,
-      'ingredient' => 'Green Crème de Menthe',
+      'ingredient' => '30 ml Green Crème de Menthe',
       'cocktail_id' => 29,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  134,
-      'ingredient' => 'Cream',
+      'ingredient' => '30 ml Cream',
       'cocktail_id' => 29,
     ]);
 
@@ -852,19 +852,19 @@ class IngredientenTableSeeder extends Seeder
       //Harvey Wallbanger
       DB::table('ingredienten')->insert([
       'id' =>  136,
-      'ingredient' => 'Vodka',
+      'ingredient' => '45 ml Vodka',
       'cocktail_id' => 30,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  137,
-      'ingredient' => 'Galliano',
+      'ingredient' => '15 ml Galliano',
       'cocktail_id' => 30,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  138,
-      'ingredient' => 'Orange Juice',
+      'ingredient' => '90 ml Orange Juice',
       'cocktail_id' => 30,
     ]);
 
@@ -889,25 +889,25 @@ class IngredientenTableSeeder extends Seeder
       //Hemmingway Daiquiri
       DB::table('ingredienten')->insert([
       'id' =>  142,
-      'ingredient' => 'White Rum',
+      'ingredient' => '60 ml White Rum',
       'cocktail_id' => 31,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  143,
-      'ingredient' => 'Grapefruit Juice',
+      'ingredient' => '40 ml Grapefruit Juice',
       'cocktail_id' => 31,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  144,
-      'ingredient' => 'Maraschino Liquer',
+      'ingredient' => '15 ml Maraschino Liquer',
       'cocktail_id' => 31,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  145,
-      'ingredient' => 'Lime Juice',
+      'ingredient' => '15 ml Lime Juice',
       'cocktail_id' => 31,
     ]);
 
@@ -920,19 +920,19 @@ class IngredientenTableSeeder extends Seeder
       //Horse Neck
       DB::table('ingredienten')->insert([
       'id' =>  147,
-      'ingredient' => 'Brandy',
+      'ingredient' => '40 ml Brandy',
       'cocktail_id' => 32,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  148,
-      'ingredient' => 'Ginger Ale',
+      'ingredient' => '120 ml Ginger Ale',
       'cocktail_id' => 32,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  149,
-      'ingredient' => 'Angostura Bitters',
+      'ingredient' => '1 dash Angostura Bitters',
       'cocktail_id' => 32,
     ]);
 
@@ -951,55 +951,55 @@ class IngredientenTableSeeder extends Seeder
       //Hurricane
       DB::table('ingredienten')->insert([
       'id' =>  152,
-      'ingredient' => 'White Rum',
+      'ingredient' => '30 ml White Rum',
       'cocktail_id' => 33,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  153,
-      'ingredient' => 'Dark Rum',
+      'ingredient' => '30 ml Dark Rum',
       'cocktail_id' => 33,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  154,
-      'ingredient' => 'Galliano',
+      'ingredient' => '15 ml Galliano',
       'cocktail_id' => 33,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  155,
-      'ingredient' => 'Lime Juice',
+      'ingredient' => '22.5 ml Lime Juice',
       'cocktail_id' => 33,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  156,
-      'ingredient' => 'Orange Juice',
+      'ingredient' => '60 ml Orange Juice',
       'cocktail_id' => 33,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  157,
-      'ingredient' => 'Pineapple Juice',
+      'ingredient' => '60 ml Pineapple Juice',
       'cocktail_id' => 33,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  158,
-      'ingredient' => 'Simple Syrup',
+      'ingredient' => '30 ml Simple Syrup',
       'cocktail_id' => 33,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  159,
-      'ingredient' => 'Passion Fruit Syrup',
+      'ingredient' => '1 pinchPassion Fruit Syrup',
       'cocktail_id' => 33,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  160,
-      'ingredient' => 'Angostura Bitters',
+      'ingredient' => '1 dash Angostura Bitters',
       'cocktail_id' => 33,
     ]);
 
@@ -1018,13 +1018,13 @@ class IngredientenTableSeeder extends Seeder
       //Irish Buck
       DB::table('ingredienten')->insert([
       'id' =>  163,
-      'ingredient' => 'Irish Whiskey',
+      'ingredient' => '45 ml Irish Whiskey',
       'cocktail_id' => 34,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  164,
-      'ingredient' => 'Ginger Ale',
+      'ingredient' => '150 ml Ginger Ale',
       'cocktail_id' => 34,
     ]);
 
@@ -1043,19 +1043,19 @@ class IngredientenTableSeeder extends Seeder
       //Irish Eyes
       DB::table('ingredienten')->insert([
       'id' =>  167,
-      'ingredient' => 'Irish Whiskey',
+      'ingredient' => '30 ml Irish Whiskey',
       'cocktail_id' => 35,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  168,
-      'ingredient' => 'Green Crème de Menthe',
+      'ingredient' => '7.5 ml Green Crème de Menthe',
       'cocktail_id' => 35,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  169,
-      'ingredient' => 'Cream',
+      'ingredient' => '60 ml Cream',
       'cocktail_id' => 35,
     ]);
 
@@ -1068,44 +1068,44 @@ class IngredientenTableSeeder extends Seeder
       //Irish Flag
       DB::table('ingredienten')->insert([
       'id' =>  171,
-      'ingredient' => 'Baileys Irish Cream Liquer',
+      'ingredient' => '20 ml Baileys Irish Cream Liquer',
       'cocktail_id' => 36,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  172,
-      'ingredient' => 'Green Crème de Menthe',
+      'ingredient' => '20 ml Green Crème de Menthe',
       'cocktail_id' => 36,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  173,
-      'ingredient' => 'Grand Marnier',
+      'ingredient' => '20 ml Grand Marnier',
       'cocktail_id' => 36,
     ]);
 
       //Island Breeze
       DB::table('ingredienten')->insert([
       'id' =>  174,
-      'ingredient' => 'White Rum',
+      'ingredient' => '45 ml White Rum',
       'cocktail_id' => 37,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  175,
-      'ingredient' => 'Pineapple Juice',
+      'ingredient' => '120 ml Pineapple Juice',
       'cocktail_id' => 37,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  176,
-      'ingredient' => 'Cranberry Juice',
+      'ingredient' => '30 ml Cranberry Juice',
       'cocktail_id' => 37,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  177,
-      'ingredient' => 'Angostura Bitters',
+      'ingredient' => '1 part Angostura Bitters',
       'cocktail_id' => 37,
     ]);
 
@@ -1124,19 +1124,19 @@ class IngredientenTableSeeder extends Seeder
       //Jack Rose
       DB::table('ingredienten')->insert([
       'id' =>  180,
-      'ingredient' => 'Lairds Straight Apple Brandy',
+      'ingredient' => '60 ml Lairds Straight Apple Brandy',
       'cocktail_id' => 38,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  181,
-      'ingredient' => 'Lemon Juice',
+      'ingredient' => '22.5 ml Lemon Juice',
       'cocktail_id' => 38,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  182,
-      'ingredient' => 'Grenadine',
+      'ingredient' => '22.5 ml Grenadine',
       'cocktail_id' => 38,
     ]);
 
@@ -1149,31 +1149,31 @@ class IngredientenTableSeeder extends Seeder
       //John Collins
       DB::table('ingredienten')->insert([
       'id' =>  184,
-      'ingredient' => 'Gin',
+      'ingredient' => '45 ml Gin',
       'cocktail_id' => 39,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  185,
-      'ingredient' => 'Lemon Juice',
+      'ingredient' => '30 ml Lemon Juice',
       'cocktail_id' => 39,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  186,
-      'ingredient' => 'Club Soda',
+      'ingredient' => '60 ml Club Soda',
       'cocktail_id' => 39,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  187,
-      'ingredient' => 'Simple Syrup',
+      'ingredient' => '15 ml Simple Syrup',
       'cocktail_id' => 39,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  188,
-      'ingredient' => 'Angostura Bitters',
+      'ingredient' => '1 dash Angostura Bitters',
       'cocktail_id' => 39,
     ]);
 
@@ -1198,19 +1198,19 @@ class IngredientenTableSeeder extends Seeder
       //Kamikaze
       DB::table('ingredienten')->insert([
       'id' =>  192,
-      'ingredient' => 'Vodka',
+      'ingredient' => '30 ml Vodka',
       'cocktail_id' => 40,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  193,
-      'ingredient' => 'Triple sec',
+      'ingredient' => '30 ml Triple sec',
       'cocktail_id' => 40,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  194,
-      'ingredient' => 'Lime Juice',
+      'ingredient' => '30 ml Lime Juice',
       'cocktail_id' => 40,
     ]);
 
@@ -1223,19 +1223,19 @@ class IngredientenTableSeeder extends Seeder
       //Kamikaze Shot
       DB::table('ingredienten')->insert([
       'id' =>  196,
-      'ingredient' => 'Vodka',
+      'ingredient' => '15 ml Vodka',
       'cocktail_id' => 41,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  197,
-      'ingredient' => 'Triple sec',
+      'ingredient' => '15 ml Triple sec',
       'cocktail_id' => 41,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  198,
-      'ingredient' => 'Lime Juice',
+      'ingredient' => '15 ml Lime Juice',
       'cocktail_id' => 41,
     ]);
 
@@ -1248,37 +1248,37 @@ class IngredientenTableSeeder extends Seeder
       //Kentucky Buck
       DB::table('ingredienten')->insert([
       'id' =>  200,
-      'ingredient' => 'Bourbon',
+      'ingredient' => '60 ml Bourbon',
       'cocktail_id' => 42,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  201,
-      'ingredient' => 'Lemon Juice',
+      'ingredient' => '22.5 Lemon Juice',
       'cocktail_id' => 42,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  202,
-      'ingredient' => 'Simple Syrup',
+      'ingredient' => '16 ml Simple Syrup',
       'cocktail_id' => 42,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  203,
-      'ingredient' => 'Ginger Beer',
+      'ingredient' => '90 ml Ginger Beer',
       'cocktail_id' => 42,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  204,
-      'ingredient' => 'Angostura Bitters',
+      'ingredient' => '2 dash Angostura Bitters',
       'cocktail_id' => 42,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  205,
-      'ingredient' => 'Strawberry',
+      'ingredient' => '1 Strawberry',
       'cocktail_id' => 42,
     ]);
 
@@ -1297,32 +1297,32 @@ class IngredientenTableSeeder extends Seeder
       //Kir
       DB::table('ingredienten')->insert([
       'id' =>  208,
-      'ingredient' => 'White Wine',
+      'ingredient' => '90 ml White Wine',
       'cocktail_id' => 43,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  209,
-      'ingredient' => 'Crème de cassis',
+      'ingredient' => '10 ml Crème de cassis',
       'cocktail_id' => 43,
     ]);
 
       //Lemon Drop Martini
       DB::table('ingredienten')->insert([
       'id' =>  210,
-      'ingredient' => 'Citrus Vodka',
+      'ingredient' => '25 ml Citrus Vodka',
       'cocktail_id' => 44,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  211,
-      'ingredient' => 'Triple sec',
+      'ingredient' => '20 ml Triple sec',
       'cocktail_id' => 44,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  212,
-      'ingredient' => 'Lemon Juice',
+      'ingredient' => '15 ml Lemon Juice',
       'cocktail_id' => 44,
     ]);
 
@@ -1335,19 +1335,19 @@ class IngredientenTableSeeder extends Seeder
       //Lemonade
       DB::table('ingredienten')->insert([
       'id' =>  214,
-      'ingredient' => 'Lemon Juice',
+      'ingredient' => '22.5 ml Lemon Juice',
       'cocktail_id' => 45,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  215,
-      'ingredient' => 'Simple Syrup',
+      'ingredient' => '45 ml Simple Syrup',
       'cocktail_id' => 45,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  216,
-      'ingredient' => 'Water',
+      'ingredient' => '150 ml Water',
       'cocktail_id' => 45,
     ]);
 
@@ -1366,25 +1366,25 @@ class IngredientenTableSeeder extends Seeder
       //lime Rickey
       DB::table('ingredienten')->insert([
       'id' =>  219,
-      'ingredient' => 'Lime Juice',
+      'ingredient' => '22.5 ml Lime Juice',
       'cocktail_id' => 46,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  220,
-      'ingredient' => 'Simple Syrup',
+      'ingredient' => '30 ml Simple Syrup',
       'cocktail_id' => 46,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  221,
-      'ingredient' => 'Angostura Bitters',
+      'ingredient' => '3 dash Angostura Bitters',
       'cocktail_id' => 46,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  222,
-      'ingredient' => 'Club Soda',
+      'ingredient' => '1 Club Soda',
       'cocktail_id' => 46,
     ]);
 
@@ -1403,49 +1403,49 @@ class IngredientenTableSeeder extends Seeder
       //Long Island Iced Tea
       DB::table('ingredienten')->insert([
       'id' =>  225,
-      'ingredient' => 'Gin',
+      'ingredient' => '15 ml Gin',
       'cocktail_id' => 47,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  226,
-      'ingredient' => 'Tequila',
+      'ingredient' => '15 ml Tequila',
       'cocktail_id' => 47,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  227,
-      'ingredient' => 'Vodka',
+      'ingredient' => '15 ml Vodka',
       'cocktail_id' => 47,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  228,
-      'ingredient' => 'White Rum',
+      'ingredient' => '15 ml White Rum',
       'cocktail_id' => 47,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  229,
-      'ingredient' => 'Triple sec',
+      'ingredient' => '15 ml Triple sec',
       'cocktail_id' => 47,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  230,
-      'ingredient' => 'Simple Syrup',
+      'ingredient' => '30 ml Simple Syrup',
       'cocktail_id' => 47,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  231,
-      'ingredient' => 'Lemon Juice',
+      'ingredient' => '25 ml Lemon Juice',
       'cocktail_id' => 47,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  232,
-      'ingredient' => 'Cola',
+      'ingredient' => '1 dash Cola',
       'cocktail_id' => 47,
     ]);
 
@@ -1464,37 +1464,37 @@ class IngredientenTableSeeder extends Seeder
       // Mai Tai
       DB::table('ingredienten')->insert([
       'id' =>  235,
-      'ingredient' => 'White Rum',
+      'ingredient' => '30 ml White Rum',
       'cocktail_id' => 48,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  236,
-      'ingredient' => 'Dark Rum',
+      'ingredient' => '30 ml Dark Rum',
       'cocktail_id' => 48,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  237,
-      'ingredient' => 'Orange Curacao',
+      'ingredient' => '15 ml Orange Curacao',
       'cocktail_id' => 48,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  238,
-      'ingredient' => 'Lime Juice',
+      'ingredient' => '30 ml Lime Juice',
       'cocktail_id' => 48,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  239,
-      'ingredient' => 'Orgeat Syrup',
+      'ingredient' => '15 ml Orgeat Syrup',
       'cocktail_id' => 48,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  240,
-      'ingredient' => 'Simple Syrup',
+      'ingredient' => '7.5 ml Simple Syrup',
       'cocktail_id' => 48,
     ]);
 
@@ -1525,19 +1525,19 @@ class IngredientenTableSeeder extends Seeder
       //Manhattan
       DB::table('ingredienten')->insert([
       'id' =>  245,
-      'ingredient' => 'Rye Whiskey',
+      'ingredient' => '50 ml Rye Whiskey',
       'cocktail_id' => 49,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  246,
-      'ingredient' => 'Sweet Vermouth',
+      'ingredient' => '20 ml Sweet Vermouth',
       'cocktail_id' => 49,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  247,
-      'ingredient' => 'Angostura Bitters',
+      'ingredient' => '1 dash Angostura Bitters',
       'cocktail_id' => 49,
     ]);
 
@@ -1556,19 +1556,19 @@ class IngredientenTableSeeder extends Seeder
       //Margarita
       DB::table('ingredienten')->insert([
       'id' =>  250,
-      'ingredient' => 'Tequila',
+      'ingredient' => '35 ml Tequila',
       'cocktail_id' => 50,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  251,
-      'ingredient' => 'Cointreau',
+      'ingredient' => '20 ml Cointreau',
       'cocktail_id' => 50,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  252,
-      'ingredient' => 'Lime Juice',
+      'ingredient' => '15 ml Lime Juice',
       'cocktail_id' => 50,
     ]);
 
@@ -1581,13 +1581,13 @@ class IngredientenTableSeeder extends Seeder
       //Mimosa
       DB::table('ingredienten')->insert([
       'id' =>  254,
-      'ingredient' => 'Orange Juice',
+      'ingredient' => '80 ml Orange Juice',
       'cocktail_id' => 51,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  255,
-      'ingredient' => 'Champagne',
+      'ingredient' => '80 ml Champagne',
       'cocktail_id' => 51,
     ]);
 
@@ -1600,19 +1600,19 @@ class IngredientenTableSeeder extends Seeder
       // Negroni
       DB::table('ingredienten')->insert([
       'id' =>  257,
-      'ingredient' => 'Gin',
+      'ingredient' => '30 ml Gin',
       'cocktail_id' => 52,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  258,
-      'ingredient' => 'Sweet Vermouth',
+      'ingredient' => '30 ml Sweet Vermouth',
       'cocktail_id' => 52,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  259,
-      'ingredient' => 'Campari',
+      'ingredient' => '30 ml Campari',
       'cocktail_id' => 52,
     ]);
 
@@ -1631,13 +1631,13 @@ class IngredientenTableSeeder extends Seeder
       //Nutty Irishman
       DB::table('ingredienten')->insert([
       'id' =>  262,
-      'ingredient' => 'Baileys Irish Cream Liquer',
+      'ingredient' => '30 ml Baileys Irish Cream Liquer',
       'cocktail_id' => 53,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  263,
-      'ingredient' => 'Frangelico',
+      'ingredient' => '30 ml Frangelico',
       'cocktail_id' => 53,
     ]);
 
@@ -1650,25 +1650,25 @@ class IngredientenTableSeeder extends Seeder
       //Old Fashioned
       DB::table('ingredienten')->insert([
       'id' =>  265,
-      'ingredient' => 'Bourbon',
+      'ingredient' => '45 ml Bourbon',
       'cocktail_id' => 54,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  266,
-      'ingredient' => 'Angostura Bitters',
+      'ingredient' => '2 dashes Angostura Bitters',
       'cocktail_id' => 54,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  267,
-      'ingredient' => 'Water',
+      'ingredient' => '2 dashes Water',
       'cocktail_id' => 54,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  268,
-      'ingredient' => 'Sugar Cube',
+      'ingredient' => '1 Sugar Cube',
       'cocktail_id' => 54,
     ]);
 
@@ -1693,19 +1693,19 @@ class IngredientenTableSeeder extends Seeder
       //Old Pal
       DB::table('ingredienten')->insert([
       'id' =>  272,
-      'ingredient' => 'Rye Whiskey',
+      'ingredient' => '30 ml Rye Whiskey',
       'cocktail_id' => 55,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  273,
-      'ingredient' => 'Dry Vermouth',
+      'ingredient' => '30 ml Dry Vermouth',
       'cocktail_id' => 55,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  274,
-      'ingredient' => 'Campari',
+      'ingredient' => '30 ml Campari',
       'cocktail_id' => 55,
     ]);
 
@@ -1724,19 +1724,19 @@ class IngredientenTableSeeder extends Seeder
       //Orgasm
       DB::table('ingredienten')->insert([
       'id' =>  277,
-      'ingredient' => 'Amaretto',
+      'ingredient' => '15 ml Amaretto',
       'cocktail_id' => 56,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  278,
-      'ingredient' => 'Baileys Irish Cream Liquer',
+      'ingredient' => '15 ml Baileys Irish Cream Liquer',
       'cocktail_id' => 56,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  279,
-      'ingredient' => 'Kahlúa Coffee Liquer',
+      'ingredient' => '15 ml Kahlúa Coffee Liquer',
       'cocktail_id' => 56,
     ]);
 
@@ -1749,25 +1749,25 @@ class IngredientenTableSeeder extends Seeder
       //Painkiller
       DB::table('ingredienten')->insert([
       'id' =>  281,
-      'ingredient' => 'White Rum',
+      'ingredient' => '45 ml White Rum',
       'cocktail_id' => 57,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  282,
-      'ingredient' => 'Pineapple Juice',
+      'ingredient' => '45 ml Pineapple Juice',
       'cocktail_id' => 57,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  283,
-      'ingredient' => 'Orange Juice',
+      'ingredient' => '15 ml Orange Juice',
       'cocktail_id' => 57,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  284,
-      'ingredient' => 'Coconut Cream',
+      'ingredient' => '22.5 ml Coconut Cream',
       'cocktail_id' => 57,
     ]);
 
@@ -1792,19 +1792,19 @@ class IngredientenTableSeeder extends Seeder
       //Piña Colada
       DB::table('ingredienten')->insert([
       'id' =>  288,
-      'ingredient' => 'White Rum',
+      'ingredient' => '30 ml White Rum',
       'cocktail_id' => 58,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  289,
-      'ingredient' => 'Coconut Cream',
+      'ingredient' => '30 ml Coconut Cream',
       'cocktail_id' => 58,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  290,
-      'ingredient' => 'Pineapple Juice',
+      'ingredient' => '90 ml Pineapple Juice',
       'cocktail_id' => 58,
     ]);
 
@@ -1829,19 +1829,19 @@ class IngredientenTableSeeder extends Seeder
       //Rob Roy
       DB::table('ingredienten')->insert([
       'id' =>  294,
-      'ingredient' => 'Famouse Grouse',
+      'ingredient' => '75 ml Famouse Grouse',
       'cocktail_id' => 59,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  295,
-      'ingredient' => 'Dolin Blanc Vermouth',
+      'ingredient' => '22.5 ml Dolin Blanc Vermouth',
       'cocktail_id' => 59,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  296,
-      'ingredient' => 'Angostura Bitters',
+      'ingredient' => '2 dash Angostura Bitters',
       'cocktail_id' => 59,
     ]);
 
@@ -1860,30 +1860,30 @@ class IngredientenTableSeeder extends Seeder
       //Russian Spring Punch
       DB::table('ingredienten')->insert([
       'id' =>  299,
-      'ingredient' => 'Vodka',
+      'ingredient' => '25 ml Vodka',
       'cocktail_id' => 60,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  300,
-      'ingredient' => 'Lemon Juice',
+      'ingredient' => '25 ml Lemon Juice',
       'cocktail_id' => 60,
     ]);
       DB::table('ingredienten')->insert([
       'id' =>  301,
-      'ingredient' => 'Crème de Cassis',
+      'ingredient' => '15 ml Crème de Cassis',
       'cocktail_id' => 60,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  302,
-      'ingredient' => 'Simple Syrup',
+      'ingredient' => '10 ml Simple Syrup',
       'cocktail_id' => 60,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  303,
-      'ingredient' => 'White Wine',
+      'ingredient' => '20 ml White Wine',
       'cocktail_id' => 60,
     ]);
 
@@ -1908,67 +1908,67 @@ class IngredientenTableSeeder extends Seeder
       //Sangria
       DB::table('ingredienten')->insert([
       'id' =>  307,
-      'ingredient' => 'Red Wine',
+      'ingredient' => '120 ml Red Wine',
       'cocktail_id' => 61,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  308,
-      'ingredient' => 'Brandy',
+      'ingredient' => '30 ml Brandy',
       'cocktail_id' => 61,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  309,
-      'ingredient' => 'Orange Curacao',
+      'ingredient' => '15 ml Orange Curacao',
       'cocktail_id' => 61,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  310,
-      'ingredient' => 'Lemon Juice',
+      'ingredient' => '10 ml Lemon Juice',
       'cocktail_id' => 61,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  311,
-      'ingredient' => 'Grape Juice',
+      'ingredient' => '15 ml Grape Juice',
       'cocktail_id' => 61,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  312,
-      'ingredient' => 'Orange Juices',
+      'ingredient' => '15 ml Orange Juices',
       'cocktail_id' => 61,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  313,
-      'ingredient' => 'Simple Syrup',
+      'ingredient' => '10 ml Simple Syrup',
       'cocktail_id' => 61,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  314,
-      'ingredient' => 'Club Soda',
+      'ingredient' => '15 ml Club Soda',
       'cocktail_id' => 61,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  315,
-      'ingredient' => 'Orange Wheel',
+      'ingredient' => '1 Orange Wheel',
       'cocktail_id' => 61,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  316,
-      'ingredient' => 'Lemon Wheel',
+      'ingredient' => '1 Lemon Wheel',
       'cocktail_id' => 61,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  317,
-      'ingredient' => 'Lime Wheel',
+      'ingredient' => '1 Lime Wheel',
       'cocktail_id' => 61,
     ]);
 
@@ -1987,31 +1987,31 @@ class IngredientenTableSeeder extends Seeder
       //Sex on the Beach
       DB::table('ingredienten')->insert([
       'id' =>  320,
-      'ingredient' => 'Vodka',
+      'ingredient' => '40 ml Vodka',
       'cocktail_id' => 62,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  321,
-      'ingredient' => 'Peach Schnapps',
+      'ingredient' => '20 ml Peach Schnapps',
       'cocktail_id' => 62,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  322,
-      'ingredient' => 'Grenadine',
+      'ingredient' => '1 dash Grenadine',
       'cocktail_id' => 62,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  323,
-      'ingredient' => 'Orange Juice',
+      'ingredient' => '40 ml Orange Juice',
       'cocktail_id' => 62,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  324,
-      'ingredient' => 'Cranberry Juice',
+      'ingredient' => '40 ml Cranberry Juice',
       'cocktail_id' => 62,
     ]);
 
@@ -2030,19 +2030,19 @@ class IngredientenTableSeeder extends Seeder
       //Tequila Sunrise
       DB::table('ingredienten')->insert([
       'id' =>  327,
-      'ingredient' => 'Tequila',
+      'ingredient' => '45 ml Tequila',
       'cocktail_id' => 63,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  328,
-      'ingredient' => 'Orange Juice',
+      'ingredient' => '90 ml Orange Juice',
       'cocktail_id' => 63,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  329,
-      'ingredient' => 'Grenadine',
+      'ingredient' => '15 ml Grenadine',
       'cocktail_id' => 63,
     ]);
 
@@ -2067,13 +2067,13 @@ class IngredientenTableSeeder extends Seeder
       //Tipperary
       DB::table('ingredienten')->insert([
       'id' =>  333,
-      'ingredient' => 'Irish Whiskey',
+      'ingredient' => '60 ml Irish Whiskey',
       'cocktail_id' => 64,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  334,
-      'ingredient' => 'Carpona Antica Formula Vermouth',
+      'ingredient' => '30 ml Carpona Antica Formula Vermouth',
       'cocktail_id' => 64,
     ]);
 
@@ -2086,55 +2086,55 @@ class IngredientenTableSeeder extends Seeder
       //Vampiro
       DB::table('ingredienten')->insert([
       'id' =>  336,
-      'ingredient' => 'Tequila',
+      'ingredient' => '50 ml Tequila',
       'cocktail_id' => 65,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  337,
-      'ingredient' => 'Tomato Juice',
+      'ingredient' => '80 ml Tomato Juice',
       'cocktail_id' => 65,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  338,
-      'ingredient' => 'Orange Juice',
+      'ingredient' => '30 ml Orange Juice',
       'cocktail_id' => 65,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  339,
-      'ingredient' => 'Lime Juice',
+      'ingredient' => '10 ml Lime Juice',
       'cocktail_id' => 65,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  340,
-      'ingredient' => 'Honey Syrup',
+      'ingredient' => '1 tsp Honey Syrup',
       'cocktail_id' => 65,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  341,
-      'ingredient' => 'Onion',
+      'ingredient' => '0.5 piece Onion',
       'cocktail_id' => 65,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  342,
-      'ingredient' => 'Chili Pepper',
+      'ingredient' => '2 pieces Chili Pepper',
       'cocktail_id' => 65,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  343,
-      'ingredient' => 'Worcestershire Sauce',
+      'ingredient' => '3 drops Worcestershire Sauce',
       'cocktail_id' => 65,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  344,
-      'ingredient' => 'Salt',
+      'ingredient' => '1 pinch Salt',
       'cocktail_id' => 65,
     ]);
 
@@ -2147,19 +2147,19 @@ class IngredientenTableSeeder extends Seeder
       //Vesper
       DB::table('ingredienten')->insert([
       'id' =>  346,
-      'ingredient' => 'Gin',
+      'ingredient' => '45 ml Gin',
       'cocktail_id' => 66,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  347,
-      'ingredient' => 'Vodka',
+      'ingredient' => '15 ml Vodka',
       'cocktail_id' => 66,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  348,
-      'ingredient' => 'Lillet Blanc',
+      'ingredient' => '7.5 ml Lillet Blanc',
       'cocktail_id' => 66,
     ]);
 
@@ -2178,25 +2178,25 @@ class IngredientenTableSeeder extends Seeder
       //Ward Eight
       DB::table('ingredienten')->insert([
       'id' =>  351,
-      'ingredient' => 'Bourbon',
+      'ingredient' => '60 ml Bourbon',
       'cocktail_id' => 67,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  352,
-      'ingredient' => 'Simple Syrup',
+      'ingredient' => '30 ml Simple Syrup',
       'cocktail_id' => 67,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  353,
-      'ingredient' => 'Lemon Juice',
+      'ingredient' => '22.5 ml Lemon Juice',
       'cocktail_id' => 67,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  354,
-      'ingredient' => 'Grenadine',
+      'ingredient' => '7.5 ml Grenadine',
       'cocktail_id' => 67,
     ]);
 
@@ -2221,19 +2221,19 @@ class IngredientenTableSeeder extends Seeder
       //White Lady
       DB::table('ingredienten')->insert([
       'id' =>  358,
-      'ingredient' => 'Gin',
+      'ingredient' => '40 ml Gin',
       'cocktail_id' => 68,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  359,
-      'ingredient' => 'Triple sec',
+      'ingredient' => '30 ml Triple sec',
       'cocktail_id' => 68,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  360,
-      'ingredient' => 'Lemon Juice',
+      'ingredient' => '20 ml Lemon Juice',
       'cocktail_id' => 68,
     ]);
 
@@ -2252,25 +2252,25 @@ class IngredientenTableSeeder extends Seeder
       //Yellow Bird
       DB::table('ingredienten')->insert([
       'id' =>  363,
-      'ingredient' => 'White Rum',
+      'ingredient' => '30 ml White Rum',
       'cocktail_id' => 69,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  364,
-      'ingredient' => 'Galliano',
+      'ingredient' => '15 ml Galliano',
       'cocktail_id' => 69,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  365,
-      'ingredient' => 'Triple sec',
+      'ingredient' => '15 ml Triple sec',
       'cocktail_id' => 69,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  366,
-      'ingredient' => 'Lime Juice',
+      'ingredient' => '15 ml Lime Juice',
       'cocktail_id' => 69,
     ]);
 
@@ -2283,55 +2283,55 @@ class IngredientenTableSeeder extends Seeder
       //Zombie
       DB::table('ingredienten')->insert([
       'id' =>  368,
-      'ingredient' => 'Dark Rum',
+      'ingredient' => '30 ml Dark Rum',
       'cocktail_id' => 70,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  369,
-      'ingredient' => 'White Rum',
+      'ingredient' => '30 ml White Rum',
       'cocktail_id' => 70,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  370,
-      'ingredient' => 'Orange Curacao',
+      'ingredient' => '30 ml Orange Curacao',
       'cocktail_id' => 70,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  371,
-      'ingredient' => 'Lemon Juice',
+      'ingredient' => '15 ml Lemon Juice',
       'cocktail_id' => 70,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  372,
-      'ingredient' => 'Lime Juice',
+      'ingredient' => '15 ml Lime Juice',
       'cocktail_id' => 70,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  373,
-      'ingredient' => 'Orange Juice',
+      'ingredient' => '45 ml Orange Juice',
       'cocktail_id' => 70,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  374,
-      'ingredient' => 'Passion Fruit Syrup',
+      'ingredient' => '15 ml Passion Fruit Syrup',
       'cocktail_id' => 70,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  375,
-      'ingredient' => 'Grenadine',
+      'ingredient' => '7.5 ml Grenadine',
       'cocktail_id' => 70,
     ]);
 
       DB::table('ingredienten')->insert([
       'id' =>  376,
-      'ingredient' => 'Angostura Bitters',
+      'ingredient' => '2 dash Angostura Bitters',
       'cocktail_id' => 70,
     ]);
 
@@ -2352,23 +2352,6 @@ class IngredientenTableSeeder extends Seeder
       'ingredient' => 'Pinapple Wedge',
       'cocktail_id' => 70,
     ]);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
