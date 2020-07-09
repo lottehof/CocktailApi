@@ -37,4 +37,4 @@ Route::get('instructies/by-cocktail-id/{cocktailId}', 'InstructiesController@get
 
 Route::get('cocktail/by-cocktail-id/{cocktailId}', 'CocktailController@getCocktailsById');
 
-Route::get('cocktail/{strength}', 'CocktailController@getStrength');
+Route::get('/cocktail/strength/{strength}', 'CocktailController@getStrength');
