@@ -1151,6 +1151,13 @@ class BenodighedenTableSeeder extends Seeder
     ]);
 
 
+    DB::table('benodigheden')->insert([
+    'id' =>  179,
+    'benodigheid' => 'Champagne glass',
+    'cocktail_id' => 71,
+  ]);
+
+
 
 
 

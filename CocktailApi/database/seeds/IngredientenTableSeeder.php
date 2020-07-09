@@ -2353,6 +2353,26 @@ class IngredientenTableSeeder extends Seeder
       'cocktail_id' => 70,
     ]);
 
+    DB::table('ingredienten')->insert([
+    'id' =>  380,
+    'ingredient' => '90 ml Orange Juice',
+    'cocktail_id' => 71,
+  ]);
+
+  DB::table('ingredienten')->insert([
+  'id' =>  381,
+  'ingredient' => '45 ml Club Soda',
+  'cocktail_id' => 71,
+]);
+
+
+DB::table('ingredienten')->insert([
+'id' =>  382,
+'ingredient' => '15 ml Simple Syrup',
+'cocktail_id' => 71,
+]);
+
+
 
 
     }

@@ -503,6 +503,13 @@ class CocktailTableSeeder extends Seeder
     'image_location'=> 'http://iiatimd.manouk.lotte.applepi.nl/img/cocktails/zombie.png',
     ]);
 
+    DB::table('cocktail')->insert([
+    'id' =>  71,
+    'naam' => 'Momosa',
+    'sterkte' => 0,
+    'image_location'=> 'http://iiatimd.manouk.lotte.applepi.nl/img/cocktails/mimosa.png',
+    ]);
+
 
 
 

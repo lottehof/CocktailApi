@@ -1929,5 +1929,12 @@ DB::table('instructies')->insert([
 'instructie' => 'Garnish with Orange Slice and Pineapple wedge',
 'cocktail_id' => 70,
 ]);
+
+
+DB::table('instructies')->insert([
+'id' =>  314,
+'instructie' => 'Pour Orange Juice, Club Soda and Simple Syrup into the Champagne Glass',
+'cocktail_id' => 71,
+]);
     }
 }
