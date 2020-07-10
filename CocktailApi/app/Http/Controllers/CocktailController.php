@@ -57,6 +57,7 @@ class CocktailController extends Controller
 
   public function storeCocktail(Request $request){
     $cocktail = new Cocktail();
+    $cocktail->id = Cocktail::all()->last()->id+1;
     $cocktail->naam = $request->input('naam');
     $cocktail->sterkte = $request->input('sterkte');
     $cocktail->image_location = $request->input('image_location');
