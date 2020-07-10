@@ -22,6 +22,7 @@ class CocktailController extends Controller
     return Cocktail::with("ingredienten")->with("benodigheden")->with('instructies')->get();
   }
 
+
   public function CocktailById($cocktailId){
     return Cocktail::where('id', '=', $cocktailId)->first();
   }
@@ -35,21 +36,6 @@ class CocktailController extends Controller
     }
   }
 
-  public function store(Request $request){
-      $cocktail = new Cocktail();
-      $cocktail->naam = $request->input('naam');
-      $cocktail->sterkte = $request->input('sterkte');
-      $cocktail->image_location = $request->input("image_location");
-
-      try{
-      $cocktail->save();
-        return redirect('/cocktail');
-      }
-      catch(Exception $e){
-        return redirect('/cocktail/create');
-      }
-
-}
 
   public function getStrength($strength){
     if($strength == 'non-alcoholic'){
@@ -69,6 +55,21 @@ class CocktailController extends Controller
     }
   }
 
+  public function storeCocktail(Request $request){
+    $cocktail = new Cocktail();
+    $cocktail->naam = $request->input('naam');
+    $cocktail->sterkte = $request->input('sterkte');
+    $cocktail->image_location = $request->input('image_location');
+    $cocktail->created_at = $request->input('created_at');
+    $cocktail->updated_at = $request->input('updated_at');
+
+    try{
+      $cocktail->save();
+    }
+    catch (Exception $e){
+      return $e;
+    }
+  }
 
 
 }

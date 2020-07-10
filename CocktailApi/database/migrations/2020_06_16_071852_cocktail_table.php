@@ -17,8 +17,11 @@ class CocktailTable extends Migration
           $table->id('id')->unique();
           $table->string('naam');
           $table->integer('sterkte');
-          $table->string('image_location');
-          
+          $table->string('image_location')->nullable();
+          $table->timestamp('created_at')->nullable();
+          $table->timestamp('updated_at')->nullable();
+
+
 
 
       });
