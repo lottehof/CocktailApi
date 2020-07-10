@@ -26,16 +26,20 @@ Route::post('save_user_info','Api\AuthController@saveUserInfo')->middleware('jwt
 Route::post('/create', 'CocktailController@storeCocktail');
 Route::get('/cocktail', 'CocktailController@index');
 Route::get('/cocktails', 'CocktailController@show');
+Route::get('/last', 'CocktailController@getLastCocktail');
 
 
 Route::get('/cocktail/{cocktailId}', 'CocktailController@CocktailById');
 
 
 Route::get('/ingredient/by-cocktail-id/{cocktailId}', 'IngredientenController@getIngredientByCocktail');
+Route::post('/createingredient', 'IngredientenController@createIngredient');
 
 Route::get('/benodigheden/by-cocktail-id/{cocktailId}', 'BenodighedenController@getBenodighedenByCocktail');
+Route::post('/createbenodigheid', 'BenodighedenController@createBenodigheid');
 
 Route::get('/instructies/by-cocktail-id/{cocktailId}', 'InstructiesController@getInstructiesByCocktail');
+Route::post('/createinstructies', 'InstructiesController@createInstructie');
 
 Route::get('/cocktail/by-cocktail-id/{cocktailId}', 'CocktailController@getCocktailsById');
 

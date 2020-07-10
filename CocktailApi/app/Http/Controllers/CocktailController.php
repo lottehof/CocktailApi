@@ -71,5 +71,9 @@ class CocktailController extends Controller
     }
   }
 
+  public function getLastCocktail(){
+    return Cocktail::all()->last()->id;
+  }
+
 
 }

@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Instructies;
+use App\Cocktail;
 
 class InstructiesController extends Controller
 {
@@ -15,6 +16,22 @@ class InstructiesController extends Controller
       return response()->json([
             "message" => "No products found for the cocktail with cocktail id: " . $cocktailId
           ], 404);
+    }
+  }
+
+  public function createInstructie(Request $request){
+    $toinstructies = new Instructies();
+    $toinstructies->id = Instructies::all()->last()->id+1;
+    $toinstructies->instructie = $request->input('instructie');
+    $toinstructies->cocktail_id = Cocktail::all()->last()->id;
+    $toinstructies->created_at = $request->input('created_at');
+    $toinstructies->updated_at = $request->input('updated_at');
+
+    try{
+      $toinstructies->save();
+    }
+    catch (Exception $e){
+      return $e;
     }
   }
 }

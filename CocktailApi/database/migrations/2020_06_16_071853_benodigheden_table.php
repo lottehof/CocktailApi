@@ -18,6 +18,8 @@ class BenodighedenTable extends Migration
           $table->string('benodigheid');
           $table->foreignId('cocktail_id');
           $table->foreign('cocktail_id')->references('id')->on('cocktail');
+          $table->timestamp('created_at')->nullable();
+          $table->timestamp('updated_at')->nullable();
 
         });
     }
