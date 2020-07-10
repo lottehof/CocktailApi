@@ -53,19 +53,19 @@ class CocktailController extends Controller
 
   public function getStrength($strength){
     if($strength == 'non-alcoholic'){
-      return Cocktail::where('sterkte', '=', 0)->get();
+      return Cocktail::where('sterkte', '=', 0)->with("ingredienten")->with("benodigheden")->with('instructies')->get();
     }
 
     else if($strength == 'light'){
-      return Cocktail::where('sterkte', '>', 1)->where('sterkte', '<', 10)->get();
+      return Cocktail::where('sterkte', '>', 1)->where('sterkte', '<', 10)->with("ingredienten")->with("benodigheden")->with('instructies')->get();
     }
 
     else if($strength == 'medium'){
-      return Cocktail::where('sterkte', '>', 11)->where('sterkte', '<', 19)->get();
+      return Cocktail::where('sterkte', '>', 11)->where('sterkte', '<', 19)->with("ingredienten")->with("benodigheden")->with('instructies')->get();
     }
 
     else if($strength == 'strong'){
-      return Cocktail::where('sterkte', '>', 20)->get();
+      return Cocktail::where('sterkte', '>', 20)->with("ingredienten")->with("benodigheden")->with('instructies')->get();
     }
   }
 
