@@ -24,7 +24,7 @@ Route::get('logout','Api\AuthController@logout');
 Route::post('save_user_info','Api\AuthController@saveUserInfo')->middleware('jwtAuth');
 
 Route::post('/create', 'CocktailController@storeCocktail');
-Route::get('/cocktail', 'CocktailController@index');
+Route::get('/cocktail', 'CocktailController@index')->middleware('auth');
 Route::get('/cocktails', 'CocktailController@show');
 Route::get('/last', 'CocktailController@getLastCocktail');
 
